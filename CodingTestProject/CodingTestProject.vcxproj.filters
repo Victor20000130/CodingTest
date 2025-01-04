@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="20240104_Assignment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="20241231_BallChange.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

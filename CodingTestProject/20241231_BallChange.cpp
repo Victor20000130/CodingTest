@@ -4,7 +4,7 @@ using namespace std;
 
 const int BASKET_MAX = 100;
 
-void Swap(int* arr1, int* arr2)
+void Swap(int *arr1, int *arr2)
 {
 	int temp = *arr1;
 	*arr1 = *arr2;

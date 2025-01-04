@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\KGA\\Desktop\\CodingTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF40DEEF-8A86-4708-A2EC-AED1333411D7}|CodingTestProject\\CodingTestProject.vcxproj|C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20241231_BallChange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF40DEEF-8A86-4708-A2EC-AED1333411D7}|CodingTestProject\\CodingTestProject.vcxproj|solutionrelative:CodingTestProject\\20241231_BallChange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF40DEEF-8A86-4708-A2EC-AED1333411D7}|CodingTestProject\\CodingTestProject.vcxproj|C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20240104_Assignment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF40DEEF-8A86-4708-A2EC-AED1333411D7}|CodingTestProject\\CodingTestProject.vcxproj|solutionrelative:CodingTestProject\\20240104_Assignment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240104_Assignment.cpp",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20240104_Assignment.cpp",
+              "RelativeDocumentMoniker": "CodingTestProject\\20240104_Assignment.cpp",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20240104_Assignment.cpp",
+              "RelativeToolTip": "CodingTestProject\\20240104_Assignment.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T07:29:25.408Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -43,19 +56,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241231_BallChange.cpp",
-              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20241231_BallChange.cpp",
-              "RelativeDocumentMoniker": "CodingTestProject\\20241231_BallChange.cpp",
-              "ToolTip": "C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\20241231_BallChange.cpp",
-              "RelativeToolTip": "CodingTestProject\\20241231_BallChange.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-31T10:41:52.898Z",
-              "EditorCaption": ""
             }
           ]
         }

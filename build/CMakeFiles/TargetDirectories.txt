@@ -1,0 +1,2 @@
+C:/Users/KGA/Desktop/CodingTestProject/build/CMakeFiles/edit_cache.dir
+C:/Users/KGA/Desktop/CodingTestProject/build/CMakeFiles/rebuild_cache.dir
