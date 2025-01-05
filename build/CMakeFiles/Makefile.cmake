@@ -58,8 +58,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/20240104_Assignment.dir/DependInfo.cmake"
-  "CMakeFiles/20240104_Remain.dir/DependInfo.cmake"
-  "CMakeFiles/20241231_BallChange.dir/DependInfo.cmake"
-  "CMakeFiles/FlipBasket.dir/DependInfo.cmake"
+  "CMakeFiles/10811.dir/DependInfo.cmake"
+  "CMakeFiles/10813.dir/DependInfo.cmake"
+  "CMakeFiles/3052.dir/DependInfo.cmake"
+  "CMakeFiles/5597.dir/DependInfo.cmake"
   )

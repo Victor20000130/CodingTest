@@ -116,152 +116,152 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 20240104_Assignment
+# Target rules for targets named 10811
 
 # Build rule for target.
-20240104_Assignment: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20240104_Assignment
-.PHONY : 20240104_Assignment
+10811: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10811
+.PHONY : 10811
 
 # fast build rule for target.
-20240104_Assignment/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Assignment.dir\build.make CMakeFiles/20240104_Assignment.dir/build
-.PHONY : 20240104_Assignment/fast
+10811/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/build
+.PHONY : 10811/fast
 
 #=============================================================================
-# Target rules for targets named 20240104_Remain
+# Target rules for targets named 10813
 
 # Build rule for target.
-20240104_Remain: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20240104_Remain
-.PHONY : 20240104_Remain
+10813: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10813
+.PHONY : 10813
 
 # fast build rule for target.
-20240104_Remain/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Remain.dir\build.make CMakeFiles/20240104_Remain.dir/build
-.PHONY : 20240104_Remain/fast
+10813/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/build
+.PHONY : 10813/fast
 
 #=============================================================================
-# Target rules for targets named 20241231_BallChange
+# Target rules for targets named 3052
 
 # Build rule for target.
-20241231_BallChange: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20241231_BallChange
-.PHONY : 20241231_BallChange
+3052: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3052
+.PHONY : 3052
 
 # fast build rule for target.
-20241231_BallChange/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20241231_BallChange.dir\build.make CMakeFiles/20241231_BallChange.dir/build
-.PHONY : 20241231_BallChange/fast
+3052/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/build
+.PHONY : 3052/fast
 
 #=============================================================================
-# Target rules for targets named FlipBasket
+# Target rules for targets named 5597
 
 # Build rule for target.
-FlipBasket: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FlipBasket
-.PHONY : FlipBasket
+5597: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5597
+.PHONY : 5597
 
 # fast build rule for target.
-FlipBasket/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlipBasket.dir\build.make CMakeFiles/FlipBasket.dir/build
-.PHONY : FlipBasket/fast
+5597/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/build
+.PHONY : 5597/fast
 
-CodingTestProject/20240104_Assignment/20240104_Assignment.obj: CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.obj
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.obj
-
-# target to build an object file
-CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Assignment.dir\build.make CMakeFiles/20240104_Assignment.dir/CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.obj
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.obj
-
-CodingTestProject/20240104_Assignment/20240104_Assignment.i: CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.i
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.i
-
-# target to preprocess a source file
-CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Assignment.dir\build.make CMakeFiles/20240104_Assignment.dir/CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.i
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.i
-
-CodingTestProject/20240104_Assignment/20240104_Assignment.s: CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.s
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.s
-
-# target to generate assembly for a file
-CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Assignment.dir\build.make CMakeFiles/20240104_Assignment.dir/CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.s
-.PHONY : CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.s
-
-CodingTestProject/20240104_Remain/20240104_Remain.obj: CodingTestProject/20240104_Remain/20240104_Remain.cpp.obj
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.obj
+CodingTestProject/10811/10811.obj: CodingTestProject/10811/10811.cpp.obj
+.PHONY : CodingTestProject/10811/10811.obj
 
 # target to build an object file
-CodingTestProject/20240104_Remain/20240104_Remain.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Remain.dir\build.make CMakeFiles/20240104_Remain.dir/CodingTestProject/20240104_Remain/20240104_Remain.cpp.obj
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.cpp.obj
+CodingTestProject/10811/10811.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/CodingTestProject/10811/10811.cpp.obj
+.PHONY : CodingTestProject/10811/10811.cpp.obj
 
-CodingTestProject/20240104_Remain/20240104_Remain.i: CodingTestProject/20240104_Remain/20240104_Remain.cpp.i
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.i
+CodingTestProject/10811/10811.i: CodingTestProject/10811/10811.cpp.i
+.PHONY : CodingTestProject/10811/10811.i
 
 # target to preprocess a source file
-CodingTestProject/20240104_Remain/20240104_Remain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Remain.dir\build.make CMakeFiles/20240104_Remain.dir/CodingTestProject/20240104_Remain/20240104_Remain.cpp.i
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.cpp.i
+CodingTestProject/10811/10811.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/CodingTestProject/10811/10811.cpp.i
+.PHONY : CodingTestProject/10811/10811.cpp.i
 
-CodingTestProject/20240104_Remain/20240104_Remain.s: CodingTestProject/20240104_Remain/20240104_Remain.cpp.s
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.s
+CodingTestProject/10811/10811.s: CodingTestProject/10811/10811.cpp.s
+.PHONY : CodingTestProject/10811/10811.s
 
 # target to generate assembly for a file
-CodingTestProject/20240104_Remain/20240104_Remain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20240104_Remain.dir\build.make CMakeFiles/20240104_Remain.dir/CodingTestProject/20240104_Remain/20240104_Remain.cpp.s
-.PHONY : CodingTestProject/20240104_Remain/20240104_Remain.cpp.s
+CodingTestProject/10811/10811.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/CodingTestProject/10811/10811.cpp.s
+.PHONY : CodingTestProject/10811/10811.cpp.s
 
-CodingTestProject/20241231_BallChange/20241231_BallChange.obj: CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.obj
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.obj
+CodingTestProject/10813/10813.obj: CodingTestProject/10813/10813.cpp.obj
+.PHONY : CodingTestProject/10813/10813.obj
 
 # target to build an object file
-CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20241231_BallChange.dir\build.make CMakeFiles/20241231_BallChange.dir/CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.obj
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.obj
+CodingTestProject/10813/10813.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/CodingTestProject/10813/10813.cpp.obj
+.PHONY : CodingTestProject/10813/10813.cpp.obj
 
-CodingTestProject/20241231_BallChange/20241231_BallChange.i: CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.i
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.i
+CodingTestProject/10813/10813.i: CodingTestProject/10813/10813.cpp.i
+.PHONY : CodingTestProject/10813/10813.i
 
 # target to preprocess a source file
-CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20241231_BallChange.dir\build.make CMakeFiles/20241231_BallChange.dir/CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.i
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.i
+CodingTestProject/10813/10813.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/CodingTestProject/10813/10813.cpp.i
+.PHONY : CodingTestProject/10813/10813.cpp.i
 
-CodingTestProject/20241231_BallChange/20241231_BallChange.s: CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.s
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.s
+CodingTestProject/10813/10813.s: CodingTestProject/10813/10813.cpp.s
+.PHONY : CodingTestProject/10813/10813.s
 
 # target to generate assembly for a file
-CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20241231_BallChange.dir\build.make CMakeFiles/20241231_BallChange.dir/CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.s
-.PHONY : CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.s
+CodingTestProject/10813/10813.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/CodingTestProject/10813/10813.cpp.s
+.PHONY : CodingTestProject/10813/10813.cpp.s
 
-CodingTestProject/FlipBasket/FlipBasket.obj: CodingTestProject/FlipBasket/FlipBasket.cpp.obj
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.obj
+CodingTestProject/3052/3052.obj: CodingTestProject/3052/3052.cpp.obj
+.PHONY : CodingTestProject/3052/3052.obj
 
 # target to build an object file
-CodingTestProject/FlipBasket/FlipBasket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlipBasket.dir\build.make CMakeFiles/FlipBasket.dir/CodingTestProject/FlipBasket/FlipBasket.cpp.obj
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.cpp.obj
+CodingTestProject/3052/3052.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/CodingTestProject/3052/3052.cpp.obj
+.PHONY : CodingTestProject/3052/3052.cpp.obj
 
-CodingTestProject/FlipBasket/FlipBasket.i: CodingTestProject/FlipBasket/FlipBasket.cpp.i
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.i
+CodingTestProject/3052/3052.i: CodingTestProject/3052/3052.cpp.i
+.PHONY : CodingTestProject/3052/3052.i
 
 # target to preprocess a source file
-CodingTestProject/FlipBasket/FlipBasket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlipBasket.dir\build.make CMakeFiles/FlipBasket.dir/CodingTestProject/FlipBasket/FlipBasket.cpp.i
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.cpp.i
+CodingTestProject/3052/3052.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/CodingTestProject/3052/3052.cpp.i
+.PHONY : CodingTestProject/3052/3052.cpp.i
 
-CodingTestProject/FlipBasket/FlipBasket.s: CodingTestProject/FlipBasket/FlipBasket.cpp.s
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.s
+CodingTestProject/3052/3052.s: CodingTestProject/3052/3052.cpp.s
+.PHONY : CodingTestProject/3052/3052.s
 
 # target to generate assembly for a file
-CodingTestProject/FlipBasket/FlipBasket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlipBasket.dir\build.make CMakeFiles/FlipBasket.dir/CodingTestProject/FlipBasket/FlipBasket.cpp.s
-.PHONY : CodingTestProject/FlipBasket/FlipBasket.cpp.s
+CodingTestProject/3052/3052.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/CodingTestProject/3052/3052.cpp.s
+.PHONY : CodingTestProject/3052/3052.cpp.s
+
+CodingTestProject/5597/5597.obj: CodingTestProject/5597/5597.cpp.obj
+.PHONY : CodingTestProject/5597/5597.obj
+
+# target to build an object file
+CodingTestProject/5597/5597.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/CodingTestProject/5597/5597.cpp.obj
+.PHONY : CodingTestProject/5597/5597.cpp.obj
+
+CodingTestProject/5597/5597.i: CodingTestProject/5597/5597.cpp.i
+.PHONY : CodingTestProject/5597/5597.i
+
+# target to preprocess a source file
+CodingTestProject/5597/5597.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/CodingTestProject/5597/5597.cpp.i
+.PHONY : CodingTestProject/5597/5597.cpp.i
+
+CodingTestProject/5597/5597.s: CodingTestProject/5597/5597.cpp.s
+.PHONY : CodingTestProject/5597/5597.s
+
+# target to generate assembly for a file
+CodingTestProject/5597/5597.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/CodingTestProject/5597/5597.cpp.s
+.PHONY : CodingTestProject/5597/5597.cpp.s
 
 # Help Target
 help:
@@ -271,22 +271,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 20240104_Assignment
-	@echo ... 20240104_Remain
-	@echo ... 20241231_BallChange
-	@echo ... FlipBasket
-	@echo ... CodingTestProject/20240104_Assignment/20240104_Assignment.obj
-	@echo ... CodingTestProject/20240104_Assignment/20240104_Assignment.i
-	@echo ... CodingTestProject/20240104_Assignment/20240104_Assignment.s
-	@echo ... CodingTestProject/20240104_Remain/20240104_Remain.obj
-	@echo ... CodingTestProject/20240104_Remain/20240104_Remain.i
-	@echo ... CodingTestProject/20240104_Remain/20240104_Remain.s
-	@echo ... CodingTestProject/20241231_BallChange/20241231_BallChange.obj
-	@echo ... CodingTestProject/20241231_BallChange/20241231_BallChange.i
-	@echo ... CodingTestProject/20241231_BallChange/20241231_BallChange.s
-	@echo ... CodingTestProject/FlipBasket/FlipBasket.obj
-	@echo ... CodingTestProject/FlipBasket/FlipBasket.i
-	@echo ... CodingTestProject/FlipBasket/FlipBasket.s
+	@echo ... 10811
+	@echo ... 10813
+	@echo ... 3052
+	@echo ... 5597
+	@echo ... CodingTestProject/10811/10811.obj
+	@echo ... CodingTestProject/10811/10811.i
+	@echo ... CodingTestProject/10811/10811.s
+	@echo ... CodingTestProject/10813/10813.obj
+	@echo ... CodingTestProject/10813/10813.i
+	@echo ... CodingTestProject/10813/10813.s
+	@echo ... CodingTestProject/3052/3052.obj
+	@echo ... CodingTestProject/3052/3052.i
+	@echo ... CodingTestProject/3052/3052.s
+	@echo ... CodingTestProject/5597/5597.obj
+	@echo ... CodingTestProject/5597/5597.i
+	@echo ... CodingTestProject/5597/5597.s
 .PHONY : help
 
 
