@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\20240104_Assignment.dir\\CodingTestProject\\20240104_Assignment\\20240104_Assignment.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\20240104_Assignment\\20240104_Assignment.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/20240104_Assignment/20240104_Assignment.cpp",
+  "output": "CMakeFiles/20240104_Assignment.dir/CodingTestProject/20240104_Assignment/20240104_Assignment.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\20240104_Remain.dir\\CodingTestProject\\20240104_Remain\\20240104_Remain.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\20240104_Remain\\20240104_Remain.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/20240104_Remain/20240104_Remain.cpp",
+  "output": "CMakeFiles/20240104_Remain.dir/CodingTestProject/20240104_Remain/20240104_Remain.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\20241231_BallChange.dir\\CodingTestProject\\20241231_BallChange\\20241231_BallChange.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\20241231_BallChange\\20241231_BallChange.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/20241231_BallChange/20241231_BallChange.cpp",
+  "output": "CMakeFiles/20241231_BallChange.dir/CodingTestProject/20241231_BallChange/20241231_BallChange.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\FlipBasket.dir\\CodingTestProject\\FlipBasket\\FlipBasket.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\FlipBasket\\FlipBasket.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/FlipBasket/FlipBasket.cpp",
+  "output": "CMakeFiles/FlipBasket.dir/CodingTestProject/FlipBasket/FlipBasket.cpp.obj"
+}
+]

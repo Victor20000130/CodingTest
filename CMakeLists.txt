@@ -1,36 +1,52 @@
 cmake_minimum_required(VERSION 3.10)
 project(Algorithm_Practice)
 
-# C++ 17 표준 사용
+set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe")
+set(CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe")
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 모든 cpp 파일을 찾습니다
-file(GLOB_RECURSE SOURCES 
-    "*.cpp"
-)
+message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
+message(STATUS "Searching for source files...")
 
-# 각 소스 파일에 대해 실행 파일을 생성합니다
+file(GLOB_RECURSE SOURCES 
+    "CodingTestProject/*.cpp"
+    )
+
+message(STATUS "Found source files: ${SOURCES}")
+
 foreach(SOURCE ${SOURCES})
     get_filename_component(TARGET_NAME ${SOURCE} NAME_WE)
     get_filename_component(SOURCE_DIR ${SOURCE} DIRECTORY)
-    
-    # test_cases 폴더 생성
+
+    message(STATUS "========== Processing New File ==========")
+    message(STATUS "Processing source file: ${SOURCE}")
+    message(STATUS "Target name before replace: ${TARGET_NAME}")
+    message(STATUS "Source directory: ${SOURCEDIR}")
+
+    string(REPLACE " " "" TARGET_NAME ${TARGET_NAME})
+    message(STATUS "Target name after replace: ${TARGET_NAME}")
+
     set(TEST_DIR "${SOURCE_DIR}/test_cases/${TARGET_NAME}")
+    message(STATUS "Creating test directory at: ${TEST_DIR}")
     file(MAKE_DIRECTORY ${TEST_DIR})
-    
-    # input.txt가 없으면 생성
-    if(NOT EXISTS "${TEST_DIR}/input.txt")
-        file(WRITE "${TEST_DIR}/input.txt" "")
+
+    set(INPUT_FILE "${TEST_DIR}/input.txt")
+    message(STATUS "Checking for input file at: ${INPUT_FILE}")
+    if(NOT EXISTS "${INPUT_FILE}")
+        message(STATUS "Creating input.txt file")
+        file(WRITE "${INPUT_FILE}" "")
     endif()
-    
-    # 실행 파일 생성
+
+    message(STATUS "Creating executable for: ${TARGET_NAME}")
     add_executable(${TARGET_NAME} ${SOURCE})
-    
-    # 실행 파일 출력 디렉토리 설정
+
+    message(STATUS "Setting output directory to: ${TEST_DIR}")
     set_target_properties(${TARGET_NAME} PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY "${TEST_DIR}"
         RUNTIME_OUTPUT_DIRECTORY_DEBUG "${TEST_DIR}"
         RUNTIME_OUTPUT_DIRECTORY_RELEASE "${TEST_DIR}"
     )
-endforeach() 
+    message(STATUS "========== File Processing Complete ==========\n")
+endforeach()

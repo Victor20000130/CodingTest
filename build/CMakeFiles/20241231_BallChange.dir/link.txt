@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\20241231_BallChange.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\20241231_BallChange.dir/objects.a @CMakeFiles\20241231_BallChange.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\20241231_BallChange.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\20241231_BallChange\test_cases\20241231_BallChange\20241231_BallChange.exe -Wl,--out-implib,lib20241231_BallChange.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\20241231_BallChange.dir\linkLibs.rsp

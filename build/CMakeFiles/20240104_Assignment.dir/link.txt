@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\20240104_Assignment.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\20240104_Assignment.dir/objects.a @CMakeFiles\20240104_Assignment.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\20240104_Assignment.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\20240104_Assignment\test_cases\20240104_Assignment\20240104_Assignment.exe -Wl,--out-implib,lib20240104_Assignment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\20240104_Assignment.dir\linkLibs.rsp

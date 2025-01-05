@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Algorithm_Practice",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "20240104_Assignment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-20240104_Assignment-Debug-712e21703fef250e231e.json",
+					"name" : "20240104_Assignment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "20240104_Remain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-20240104_Remain-Debug-fa16bd85164b4eebf6ca.json",
+					"name" : "20240104_Remain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "20241231_BallChange::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-20241231_BallChange-Debug-3037897f8c4eac273fcf.json",
+					"name" : "20241231_BallChange",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FlipBasket::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FlipBasket-Debug-6d5c552dd133d8c98d6e.json",
+					"name" : "FlipBasket",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+		"source" : "C:/Users/qpalz/Desktop/AllStudy/CodingTest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
