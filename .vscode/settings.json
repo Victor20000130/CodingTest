@@ -52,6 +52,6 @@
   "C_Cpp.vcFormat.indent.preprocessor": "none",
   "C_Cpp.vcFormat.indent.namespaceContents": true,
   "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "ignore",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine"
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine"
 }
