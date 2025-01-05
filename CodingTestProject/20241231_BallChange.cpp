@@ -24,7 +24,6 @@ int main()
 	{
 		arr[i] = i + 1;
 	}
-
 	int selectOne;
 	int selectTwo;
 

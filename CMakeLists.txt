@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 모든 cpp 파일을 찾습니다
 file(GLOB_RECURSE SOURCES 
-    "Solutions/Baekjoon/*.cpp"
+    "*.cpp"
 )
 
 # 각 소스 파일에 대해 실행 파일을 생성합니다
