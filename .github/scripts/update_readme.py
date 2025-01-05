@@ -119,25 +119,6 @@ def generate_readme():
     
     # 기본 README 구조
     readme_content = """<div align="center">
-
-![header](https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=150&section=header&text=Algorithm%20Study&fontSize=70&animation=fadeIn&fontColor=39FF14&desc=Problem%20Solving%20Repository&descSize=25&descAlignY=75)
-
-## 📊 Current Status
-<p align="center">
-  <a href="https://solved.ac/profile/anximusic7"><img height="180em" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=anximusic7"/></a>
-</p>
-
-## 🎯 Learning Progress
-<p align="center">
-  <img src="https://img.shields.io/badge/Data_Structures-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=TheAlgorithms&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Problem_Solving-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-</p>
-
-"""
-    
-    # Current Focus 섹션 추가
-    readme_content += generate_current_focus()
     
     readme_content += "\n## 🏃‍♂️ Problem Solving\n"
     

@@ -32,4 +32,6 @@ int main() {
 	for (int i = 0; i < basketCount; i++) {
 		cout << arr[i] << " ";
 	}
+
+	int a = 10;
 }
