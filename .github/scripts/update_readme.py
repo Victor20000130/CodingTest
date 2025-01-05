@@ -119,6 +119,11 @@ def generate_readme():
     
     # 기본 README 구조
     readme_content = """<div align="center">
+
+"""
+    
+    # Current Focus 섹션 추가
+    readme_content += generate_current_focus()
     
     readme_content += "\n## 🏃‍♂️ Problem Solving\n"
     
