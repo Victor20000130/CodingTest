@@ -53,7 +53,7 @@ def collect_problems():
     total_problems = set()
     
     # 문제 수집
-    solutions_dir = "Solutions/Baekjoon"
+    solutions_dir = "CodingTestProject"
     problem_numbers = []
     
     # 디렉토리 구조 확인 및 문제 번호 수집
