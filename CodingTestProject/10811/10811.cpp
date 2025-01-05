@@ -19,5 +19,4 @@ int main() {
 		sort(v.begin() + stidx - 1, v.begin() + edidx, greater<int>());
 	}
 
-	int a;
 }

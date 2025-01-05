@@ -13,20 +13,19 @@ class ProblemInfo:
         
     def get_difficulty_emoji(self) -> str:
         level_emoji = {
-            0: '🌱',  # Unrated
-            1: '🥉', 2: '🥉', 3: '🥉', 4: '🥉', 5: '🥉',  # Bronze
-            6: '🥈', 7: '🥈', 8: '🥈', 9: '🥈', 10: '🥈',  # Silver
-            11: '🥇', 12: '🥇', 13: '🥇', 14: '🥇', 15: '🥇',  # Gold
-            16: '💎', 17: '💎', 18: '💎', 19: '💎', 20: '💎',  # Platinum
-            21: '👑', 22: '👑', 23: '👑', 24: '👑', 25: '👑',  # Diamond
-            26: '🏆', 27: '🏆', 28: '🏆', 29: '🏆', 30: '🏆'   # Ruby
+            0: '🌱',
+            1: '🥉', 2: '🥉', 3: '🥉', 4: '🥉', 5: '🥉',
+            6: '🥈', 7: '🥈', 8: '🥈', 9: '🥈', 10: '🥈',
+            11: '🥇', 12: '🥇', 13: '🥇', 14: '🥇', 15: '🥇',
+            16: '💎', 17: '💎', 18: '💎', 19: '💎', 20: '💎',
+            21: '👑', 22: '👑', 23: '👑', 24: '👑', 25: '👑',
+            26: '🏆', 27: '🏆', 28: '🏆', 29: '🏆', 30: '🏆'
         }
         return level_emoji.get(self.level, '🌱')
 
 def fetch_problem_info(problem_numbers: List[str]) -> Dict[str, ProblemInfo]:
     problems = {}
     
-    # 100개씩 나누어 요청
     for i in range(0, len(problem_numbers), 100):
         batch = problem_numbers[i:i+100]
         query = ','.join(batch)
@@ -52,18 +51,15 @@ def collect_problems():
     }
     total_problems = set()
     
-    # 문제 수집
     solutions_dir = "CodingTestProject"
     problem_numbers = []
     
-    # 디렉토리 구조 확인 및 문제 번호 수집
     for item in os.listdir(solutions_dir):
         if item.isdigit():
             problem_numbers.append(item)
     
     problem_info = fetch_problem_info(problem_numbers)
     
-    # 문제 분류 및 통계
     for number in problem_numbers:
         if number in problem_info:
             info = problem_info[number]
@@ -73,17 +69,15 @@ def collect_problems():
                 difficulty_stats[difficulty] += 1
                 total_problems.add(number)
             
-            # 파일 경로 설정 (항상 문제 번호 디렉토리 사용)
             file_path = f"{number}/{number}.cpp"
             
             problem_data = {
                 'number': number,
                 'name': info.title,
                 'difficulty': difficulty,
-                'path': f"Solutions/Baekjoon/{file_path}"
+                'path': f"CodingTestProject/{file_path}"
             }
             
-            # 태그별로 분류
             for tag in info.tags:
                 if tag not in problems_by_tag:
                     problems_by_tag[tag] = []
@@ -91,43 +85,15 @@ def collect_problems():
     
     return problems_by_tag, difficulty_stats, len(total_problems)
 
-def generate_current_focus():
-    try:
-        with open(".github/scripts/current_focus.json", "r", encoding="utf-8") as f:
-            data = json.loads(f.read())
-            
-        content = """## 📚 Current Focus
-<p align="center">"""
-        
-        for topic in data["topics"]:
-            content += f"""
-  <a href="{topic['url']}"><img src="https://img.shields.io/badge/{topic['name'].replace(' ', '_')}-{topic['color']}?style=flat-square&logo=TheAlgorithms&logoColor=white"/></a>"""
-            
-        content += "\n</p>\n"
-        return content
-    except Exception as e:
-        print(f"Error generating current focus: {e}")
-        return """## 📚 Current Focus
-<p align="center">
-  <a href="https://blog.encrypted.gg/936"><img src="https://img.shields.io/badge/Advanced_Stack-FF6B6B?style=flat-square&logo=TheAlgorithms&logoColor=white"/></a>
-  <a href="https://blog.encrypted.gg/941"><img src="https://img.shields.io/badge/BFS-00599C?style=flat-square&logo=TheAlgorithms&logoColor=white"/></a>
-</p>
-"""
-
 def generate_readme():
     problems_by_tag, difficulty_stats, total_count = collect_problems()
     
-    # 기본 README 구조
     readme_content = """<div align="center">
 
 """
     
-    # Current Focus 섹션 추가
-    readme_content += generate_current_focus()
-    
     readme_content += "\n## 🏃‍♂️ Problem Solving\n"
     
-    # 난이도 통계 추가
     readme_content += """### 🏅 Difficulty Stats
 <div align="center">
 
@@ -145,9 +111,8 @@ def generate_readme():
     
     readme_content += f"\n**Total Solved: {total_count} Problems**\n</div>\n\n"
     
-    # 문제 목록 추가
     for tag, problems in sorted(problems_by_tag.items()):
-        if not problems:  # 빈 카테고리 건너뛰기
+        if not problems:
             continue
             
         tag_display = tag.replace('_', ' ').title()
@@ -158,30 +123,19 @@ def generate_readme():
 
 """
         
-        # 문제 정렬 (난이도 -> 번호)
         sorted_problems = sorted(problems, key=lambda x: (x['difficulty'], x['number']))
         
-        # 문제 목록 추가 (두 줄 개행으로 변경)
         for prob in sorted_problems:
             readme_content += f"{prob['difficulty']} [{prob['name']} (BOJ {prob['number']})]({prob['path']})\n\n"
         
-        # 구현 테스트 파일이 있다면 추가
         test_path = f"Solutions/DataStructures/_Tests/{tag_display.replace(' ', '')}Test"
         if os.path.exists(test_path):
             readme_content += f"✅ [{tag_display} Implementation Test]({test_path}/{tag.lower()}_test.cpp)\n\n"
         
         readme_content += "</div>\n</details>\n\n"
     
-    # References 섹션 추가
-    readme_content += """## 📚 References
-<p align="center">
-  <a href="https://blog.encrypted.gg/category/강좌/실전%20알고리즘"><img src="https://img.shields.io/badge/BaaaaaaaaaaarkingDog_Algorithm_Lecture-11B48A?style=flat-square&logo=Vimeo&logoColor=white"/></a>
-  <a href="https://www.acmicpc.net/"><img src="https://img.shields.io/badge/Baekjoon_Online_Judge-0076C0?style=flat-square&logo=Baidu&logoColor=white"/></a>
-</p>
-
-</div>"""
+    readme_content += "</div>"
     
-    # README 파일 쓰기
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
 
