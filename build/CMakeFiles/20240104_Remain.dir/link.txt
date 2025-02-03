@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\20240104_Remain.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\20240104_Remain.dir/objects.a @CMakeFiles\20240104_Remain.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\20240104_Remain.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\20240104_Remain\test_cases\20240104_Remain\20240104_Remain.exe -Wl,--out-implib,lib20240104_Remain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\20240104_Remain.dir\linkLibs.rsp
