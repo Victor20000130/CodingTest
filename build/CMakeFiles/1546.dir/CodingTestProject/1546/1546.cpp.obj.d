@@ -1,5 +1,5 @@
-CMakeFiles/10811.dir/CodingTestProject/10811/10811.cpp.obj: \
- C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\10811\10811.cpp \
+CMakeFiles/1546.dir/CodingTestProject/1546/1546.cpp.obj: \
+ C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\1546\1546.cpp \
  C:/MinGW/include/c++/14.2.0/iostream \
  C:/MinGW/include/c++/14.2.0/bits/requires_hosted.h \
  C:/MinGW/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,17 +139,4 @@ CMakeFiles/10811.dir/CodingTestProject/10811/10811.cpp.obj: \
  C:/MinGW/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/MinGW/include/c++/14.2.0/bits/ostream.tcc \
  C:/MinGW/include/c++/14.2.0/istream \
- C:/MinGW/include/c++/14.2.0/bits/istream.tcc \
- C:/MinGW/include/c++/14.2.0/algorithm \
- C:/MinGW/include/c++/14.2.0/bits/stl_algo.h \
- C:/MinGW/include/c++/14.2.0/bits/algorithmfwd.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_heap.h \
- C:/MinGW/include/c++/14.2.0/bits/uniform_int_dist.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_tempbuf.h \
- C:/MinGW/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
- C:/MinGW/include/c++/14.2.0/pstl/execution_defs.h \
- C:/MinGW/include/c++/14.2.0/vector \
- C:/MinGW/include/c++/14.2.0/bits/stl_uninitialized.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_vector.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_bvector.h \
- C:/MinGW/include/c++/14.2.0/bits/vector.tcc
+ C:/MinGW/include/c++/14.2.0/bits/istream.tcc

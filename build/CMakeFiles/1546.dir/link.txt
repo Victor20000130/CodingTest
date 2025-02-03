@@ -1,0 +1,3 @@
+C:\MinGW\bin\cmake.exe -E rm -f CMakeFiles\1546.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\1546.dir/objects.a @CMakeFiles\1546.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\1546.dir/objects.a -Wl,--no-whole-archive -o C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\1546\test_cases\1546\1546.exe -Wl,--out-implib,lib1546.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1546.dir\linkLibs.rsp
