@@ -127,6 +127,12 @@
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\12865.dir\\CodingTestProject\\12865\\12865.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\12865\\12865.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/12865/12865.cpp",
+  "output": "CMakeFiles/12865.dir/CodingTestProject/12865/12865.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\1330.dir\\CodingTestProject\\1330\\1330.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\1330\\1330.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/1330/1330.cpp",
   "output": "CMakeFiles/1330.dir/CodingTestProject/1330/1330.cpp.obj"
