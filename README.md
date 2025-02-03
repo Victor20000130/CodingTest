@@ -5,20 +5,22 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `4`
+`🥉 Bronze                      ` `5`
 `🥈 Silver                      ` `0`
 `🥇 Gold                        ` `0`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 4 Problems**
+**Total Solved: 5 Problems**
 </div>
 
 <details>
 <summary>Arithmetic</summary>
 
 <div align="center">
+
+🥉 [평균 (BOJ 1546)](CodingTestProject/1546/1546.cpp)
 
 🥉 [나머지 (BOJ 3052)](CodingTestProject/3052/3052.cpp)
 
@@ -43,6 +45,8 @@
 <summary>Math</summary>
 
 <div align="center">
+
+🥉 [평균 (BOJ 1546)](CodingTestProject/1546/1546.cpp)
 
 🥉 [나머지 (BOJ 3052)](CodingTestProject/3052/3052.cpp)
 
