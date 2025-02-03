@@ -14,11 +14,24 @@
 */
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <numeric>
 using namespace std;
 
 int main()
 {
     int n, m;
-    vector<float> v;
-
+    vector<int> v;
+    vector<float> v2;
+    float sum;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> m;
+        v.push_back(m);
+    }
+    int max_val = *max_element(v.begin(), v.end());
+    for (int i : v) v2.push_back(static_cast<float>(i) / max_val * 100);
+    sum = accumulate(v2.begin(), v2.end(), float(0));
+    cout << sum / n;
 }
