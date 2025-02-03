@@ -7,12 +7,12 @@
 
 `🥉 Bronze                      ` `42`
 `🥈 Silver                      ` `0`
-`🥇 Gold                        ` `0`
+`🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 42 Problems**
+**Total Solved: 43 Problems**
 </div>
 
 <details>
@@ -73,6 +73,16 @@
 <div align="center">
 
 🥉 [주사위 세개 (BOJ 2480)](CodingTestProject/2480/2480.cpp)
+
+</div>
+</details>
+
+<details>
+<summary>Dp</summary>
+
+<div align="center">
+
+🥇 [평범한 배낭 (BOJ 12865)](CodingTestProject/12865/12865.cpp)
 
 </div>
 </details>
@@ -163,6 +173,16 @@
 🥉 [합 (BOJ 8393)](CodingTestProject/8393/8393.cpp)
 
 🥉 [시험 성적 (BOJ 9498)](CodingTestProject/9498/9498.cpp)
+
+</div>
+</details>
+
+<details>
+<summary>Knapsack</summary>
+
+<div align="center">
+
+🥇 [평범한 배낭 (BOJ 12865)](CodingTestProject/12865/12865.cpp)
 
 </div>
 </details>
