@@ -23,30 +23,56 @@ int main()
 {
     int N, K, W, V;
     multimap<int, int> mm;
+
     cin >> N >> K;
     for (int i = 0; i < N; i++)
     {
         cin >> W >> V;
         mm.insert({ pair<int,int>(W, V) });
     }
-    cout << Recursion(&mm, &K);
+
+    int v = Recursion(&mm, &K);
+    cout << v << endl;
 }
 
 int Recursion(multimap<int, int>* mm, int* K)
 {
     int V = 0;
+
     multimap<int, int>::iterator iter;
     for (iter = mm->begin(); iter != mm->end(); iter++)
     {
-        cout << "[" << iter->first << "," << iter->second << "]";
-        if (K - iter->first > 0)
+        //물건이 가방에 들어갈 수 있는 무게이면
+        if (*K - iter->first >= 0)
         {
-            K -= iter->first;
-        }
-        else if (K == 0)
-        {
-            return V;
+            //현재 물건을 넣음
+            V += iter->second;
+            *K -= iter->first;
+            //다음 물건을 확인할 반복자 선언
+            auto it = iter;
+            //다음 물건을 확인
+            it++;
+            //다음 물건과 같은 무게이며, 값이 같거나 클 때
+            if (it->first == iter->first && it->second >= iter->second)
+            {
+                //두 물건 모두 배낭에 들어갈 수 있는지 확인
+                if (*K - it->first >= 0)
+                {
+                    //다음 물건도 넣음
+                    V += it->second;
+                    *K -= it->first;
+                }
+                //하나만 들어갈 수 있다면
+                else
+                {
+                    //다음 물건으로 교체
+                    *K += iter->first;
+                    *K -= it->first;
+                    V -= iter->second;
+                    V += it->second;
+                }
+            }
         }
     }
-
+    return V;
 }
