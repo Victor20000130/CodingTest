@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `46`
+`🥉 Bronze                      ` `48`
 `🥈 Silver                      ` `0`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 47 Problems**
+**Total Solved: 49 Problems**
 </div>
 
 <details>
@@ -116,6 +116,8 @@
 
 🥉 [개수 세기 (BOJ 10807)](CodingTestProject/10807/10807.cpp)
 
+🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
+
 🥉 [공 넣기 (BOJ 10810)](CodingTestProject/10810/10810.cpp)
 
 🥉 [바구니 뒤집기 (BOJ 10811)](CodingTestProject/10811/10811.cpp)
@@ -145,6 +147,8 @@
 🥉 [꼬마 정민 (BOJ 11382)](CodingTestProject/11382/11382.cpp)
 
 🥉 [아스키 코드 (BOJ 11654)](CodingTestProject/11654/11654.cpp)
+
+🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
 
 🥉 [두 수 비교하기 (BOJ 1330)](CodingTestProject/1330/1330.cpp)
 
@@ -226,6 +230,8 @@
 
 🥉 [꼬마 정민 (BOJ 11382)](CodingTestProject/11382/11382.cpp)
 
+🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
+
 🥉 [평균 (BOJ 1546)](CodingTestProject/1546/1546.cpp)
 
 🥉 [빠른 A+B (BOJ 15552)](CodingTestProject/15552/15552.cpp)
@@ -271,6 +277,10 @@
 <summary>String</summary>
 
 <div align="center">
+
+🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
+
+🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
 
 🥉 [단어 길이 재기 (BOJ 2743)](CodingTestProject/2743/2743.cpp)
 
