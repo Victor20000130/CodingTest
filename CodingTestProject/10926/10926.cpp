@@ -15,9 +15,9 @@ using namespace std;
 
 int main()
 {
-    string sup = "??!";
+    // string sup = "??!";
     string str;
 
     cin >> str;
-    cout << str + sup;
+    // cout << str + sup;
 }

@@ -43,6 +43,12 @@
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10809.dir\\CodingTestProject\\10809\\10809.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\10809\\10809.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/10809/10809.cpp",
+  "output": "CMakeFiles/10809.dir/CodingTestProject/10809/10809.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10810.dir\\CodingTestProject\\10810\\10810.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\10810\\10810.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/10810/10810.cpp",
   "output": "CMakeFiles/10810.dir/CodingTestProject/10810/10810.cpp.obj"
@@ -124,6 +130,18 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\11382.dir\\CodingTestProject\\11382\\11382.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\11382\\11382.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/11382/11382.cpp",
   "output": "CMakeFiles/11382.dir/CodingTestProject/11382/11382.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\11654.dir\\CodingTestProject\\11654\\11654.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\11654\\11654.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/11654/11654.cpp",
+  "output": "CMakeFiles/11654.dir/CodingTestProject/11654/11654.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\11720.dir\\CodingTestProject\\11720\\11720.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\11720\\11720.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/11720/11720.cpp",
+  "output": "CMakeFiles/11720.dir/CodingTestProject/11720/11720.cpp.obj"
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",

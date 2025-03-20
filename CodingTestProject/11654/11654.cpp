@@ -6,3 +6,13 @@
 
 // 출력
 // 입력으로 주어진 글자의 아스키 코드 값을 출력한다.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char input;
+    cin >> input;
+    cout << int(input);
+}
