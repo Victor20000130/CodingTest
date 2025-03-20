@@ -1,5 +1,5 @@
-CMakeFiles/12865.dir/CodingTestProject/12865/12865.cpp.obj: \
- C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\12865\12865.cpp \
+CMakeFiles/9086.dir/CodingTestProject/9086/9086.cpp.obj: \
+ C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\9086\9086.cpp \
  C:/MinGW/include/c++/14.2.0/iostream \
  C:/MinGW/include/c++/14.2.0/bits/requires_hosted.h \
  C:/MinGW/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,11 +139,4 @@ CMakeFiles/12865.dir/CodingTestProject/12865/12865.cpp.obj: \
  C:/MinGW/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/MinGW/include/c++/14.2.0/bits/ostream.tcc \
  C:/MinGW/include/c++/14.2.0/istream \
- C:/MinGW/include/c++/14.2.0/bits/istream.tcc \
- C:/MinGW/include/c++/14.2.0/map \
- C:/MinGW/include/c++/14.2.0/bits/stl_tree.h \
- C:/MinGW/include/c++/14.2.0/ext/aligned_buffer.h \
- C:/MinGW/include/c++/14.2.0/bits/node_handle.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_map.h \
- C:/MinGW/include/c++/14.2.0/bits/stl_multimap.h \
- C:/MinGW/include/c++/14.2.0/bits/erase_if.h
+ C:/MinGW/include/c++/14.2.0/bits/istream.tcc

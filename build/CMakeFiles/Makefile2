@@ -99,11 +99,14 @@ all: CMakeFiles/2557.dir/all
 all: CMakeFiles/2562.dir/all
 all: CMakeFiles/2588.dir/all
 all: CMakeFiles/2739.dir/all
+all: CMakeFiles/2743.dir/all
 all: CMakeFiles/2753.dir/all
+all: CMakeFiles/27866.dir/all
 all: CMakeFiles/2884.dir/all
 all: CMakeFiles/3052.dir/all
 all: CMakeFiles/5597.dir/all
 all: CMakeFiles/8393.dir/all
+all: CMakeFiles/9086.dir/all
 all: CMakeFiles/9498.dir/all
 .PHONY : all
 
@@ -149,11 +152,14 @@ clean: CMakeFiles/2557.dir/clean
 clean: CMakeFiles/2562.dir/clean
 clean: CMakeFiles/2588.dir/clean
 clean: CMakeFiles/2739.dir/clean
+clean: CMakeFiles/2743.dir/clean
 clean: CMakeFiles/2753.dir/clean
+clean: CMakeFiles/27866.dir/clean
 clean: CMakeFiles/2884.dir/clean
 clean: CMakeFiles/3052.dir/clean
 clean: CMakeFiles/5597.dir/clean
 clean: CMakeFiles/8393.dir/clean
+clean: CMakeFiles/9086.dir/clean
 clean: CMakeFiles/9498.dir/clean
 .PHONY : clean
 
@@ -1120,13 +1126,39 @@ CMakeFiles/2739.dir/clean:
 .PHONY : CMakeFiles/2739.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2743.dir
+
+# All Build rule for target.
+CMakeFiles/2743.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=75,76 "Built target 2743"
+.PHONY : CMakeFiles/2743.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2743.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2743.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 0
+.PHONY : CMakeFiles/2743.dir/rule
+
+# Convenience name for target.
+2743: CMakeFiles/2743.dir/rule
+.PHONY : 2743
+
+# clean rule for target.
+CMakeFiles/2743.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/clean
+.PHONY : CMakeFiles/2743.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2753.dir
 
 # All Build rule for target.
 CMakeFiles/2753.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2753.dir\build.make CMakeFiles/2753.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2753.dir\build.make CMakeFiles/2753.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=75,76 "Built target 2753"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=77,78 "Built target 2753"
 .PHONY : CMakeFiles/2753.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1146,13 +1178,39 @@ CMakeFiles/2753.dir/clean:
 .PHONY : CMakeFiles/2753.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/27866.dir
+
+# All Build rule for target.
+CMakeFiles/27866.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=79,80 "Built target 27866"
+.PHONY : CMakeFiles/27866.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/27866.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/27866.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 0
+.PHONY : CMakeFiles/27866.dir/rule
+
+# Convenience name for target.
+27866: CMakeFiles/27866.dir/rule
+.PHONY : 27866
+
+# clean rule for target.
+CMakeFiles/27866.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/clean
+.PHONY : CMakeFiles/27866.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2884.dir
 
 # All Build rule for target.
 CMakeFiles/2884.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2884.dir\build.make CMakeFiles/2884.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2884.dir\build.make CMakeFiles/2884.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=77,78 "Built target 2884"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=81,82 "Built target 2884"
 .PHONY : CMakeFiles/2884.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1178,7 +1236,7 @@ CMakeFiles/2884.dir/clean:
 CMakeFiles/3052.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=79,80 "Built target 3052"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=83,84 "Built target 3052"
 .PHONY : CMakeFiles/3052.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1204,7 +1262,7 @@ CMakeFiles/3052.dir/clean:
 CMakeFiles/5597.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=81,82 "Built target 5597"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=85,86 "Built target 5597"
 .PHONY : CMakeFiles/5597.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1230,7 +1288,7 @@ CMakeFiles/5597.dir/clean:
 CMakeFiles/8393.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8393.dir\build.make CMakeFiles/8393.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8393.dir\build.make CMakeFiles/8393.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=83,84 "Built target 8393"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=87,88 "Built target 8393"
 .PHONY : CMakeFiles/8393.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1250,13 +1308,39 @@ CMakeFiles/8393.dir/clean:
 .PHONY : CMakeFiles/8393.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/9086.dir
+
+# All Build rule for target.
+CMakeFiles/9086.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9086.dir\build.make CMakeFiles/9086.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9086.dir\build.make CMakeFiles/9086.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=89,90 "Built target 9086"
+.PHONY : CMakeFiles/9086.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/9086.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/9086.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles 0
+.PHONY : CMakeFiles/9086.dir/rule
+
+# Convenience name for target.
+9086: CMakeFiles/9086.dir/rule
+.PHONY : 9086
+
+# clean rule for target.
+CMakeFiles/9086.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9086.dir\build.make CMakeFiles/9086.dir/clean
+.PHONY : CMakeFiles/9086.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/9498.dir
 
 # All Build rule for target.
 CMakeFiles/9498.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9498.dir\build.make CMakeFiles/9498.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9498.dir\build.make CMakeFiles/9498.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=85,86 "Built target 9498"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\KGA\Desktop\CodingTestProject\build\CMakeFiles --progress-num=91,92 "Built target 9498"
 .PHONY : CMakeFiles/9498.dir/all
 
 # Build rule for subdir invocation for target.
