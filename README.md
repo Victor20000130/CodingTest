@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `48`
+`🥉 Bronze                      ` `49`
 `🥈 Silver                      ` `0`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 49 Problems**
+**Total Solved: 50 Problems**
 </div>
 
 <details>
@@ -170,6 +170,8 @@
 
 🥉 [최댓값 (BOJ 2562)](CodingTestProject/2562/2562.cpp)
 
+🥉 [문자열 반복 (BOJ 2675)](CodingTestProject/2675/2675.cpp)
+
 🥉 [구구단 (BOJ 2739)](CodingTestProject/2739/2739.cpp)
 
 🥉 [단어 길이 재기 (BOJ 2743)](CodingTestProject/2743/2743.cpp)
@@ -281,6 +283,8 @@
 🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
 
 🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
+
+🥉 [문자열 반복 (BOJ 2675)](CodingTestProject/2675/2675.cpp)
 
 🥉 [단어 길이 재기 (BOJ 2743)](CodingTestProject/2743/2743.cpp)
 
