@@ -33,7 +33,8 @@
     "iosfwd": "cpp",
     "iostream": "cpp",
     "ostream": "cpp",
-    "type_traits": "cpp"
+    "type_traits": "cpp",
+    "new": "cpp"
   },
   "files.exclude": {
     "**/build": false
