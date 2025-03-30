@@ -8,41 +8,45 @@
 
 // 출력
 // 각 테스트 케이스에 대해 P를 출력한다.
-// #include<iostream>
-// #include<vector>
-// using namespace std;
+#include<iostream>
+#include<vector>
+using namespace std;
 
-// string RepeatStr(int count, string str)
-// {
-//     string output;
-//     for (int i = 0; i < str.length(); i++)
-//     {
-//         for (int j = 0; j < count; j++)
-//         {
-//             output.push_back(str[i]);
-//         }
-//     }
+int testCase = 0;
+vector<int> repeatVT;
+vector<string> strVT;
+void Repeat(string str, int count);
 
-//     return output;
-// }
+int main()
+{
+    cin >> testCase;
 
-// int main()
-// {
-//     int testCase, repeatCount;
-//     string str;
-//     string temp;
-//     vector<string> output;
-//     cin >> testCase;
+    for (int i = 0; i < testCase; i++)
+    {
+        int repeatCount = 0;
+        cin >> repeatCount;
+        repeatVT.push_back(repeatCount);
+        string str = "";
+        cin >> str;
+        strVT.push_back(str);
+    }
+    for (int i = 0; i < testCase; i++)
+    {
+        Repeat(strVT.at(i), repeatVT.at(i));
+    }
 
-//     for (int i = 0; i < testCase; i++)
-//     {
-//         cin >> repeatCount >> str;
-//         output.push_back(RepeatStr(repeatCount, str));
-//     }
+}
 
-//     for (int i = 0; i < testCase; i++)
-//     {
-//         cout << output[testCase] << endl;
-//     }
-// }
+void Repeat(string str, int count)
+{
+    string output;
+    for (int i = 0; i < str.length(); i++)
+    {
+        for (int j = 0; j < count; j++)
+        {
+            output.push_back(str[i]);
+        }
+    }
+    cout << output << endl;
+}
 
