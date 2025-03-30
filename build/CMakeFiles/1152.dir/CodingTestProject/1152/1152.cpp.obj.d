@@ -1,5 +1,5 @@
-CMakeFiles/2675.dir/CodingTestProject/2675/2675.cpp.obj: \
- C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\2675\2675.cpp \
+CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.obj: \
+ C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\1152\1152.cpp \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -132,9 +132,4 @@ CMakeFiles/2675.dir/CodingTestProject/2675/2675.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_ios.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc

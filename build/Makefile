@@ -402,6 +402,19 @@ depend:
 .PHONY : 11382/fast
 
 #=============================================================================
+# Target rules for targets named 1152
+
+# Build rule for target.
+1152: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1152
+.PHONY : 1152
+
+# fast build rule for target.
+1152/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/build
+.PHONY : 1152/fast
+
+#=============================================================================
 # Target rules for targets named 11654
 
 # Build rule for target.
@@ -1293,6 +1306,30 @@ CodingTestProject/11382/11382.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11382.dir\build.make CMakeFiles/11382.dir/CodingTestProject/11382/11382.cpp.s
 .PHONY : CodingTestProject/11382/11382.cpp.s
 
+CodingTestProject/1152/1152.obj: CodingTestProject/1152/1152.cpp.obj
+.PHONY : CodingTestProject/1152/1152.obj
+
+# target to build an object file
+CodingTestProject/1152/1152.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.obj
+.PHONY : CodingTestProject/1152/1152.cpp.obj
+
+CodingTestProject/1152/1152.i: CodingTestProject/1152/1152.cpp.i
+.PHONY : CodingTestProject/1152/1152.i
+
+# target to preprocess a source file
+CodingTestProject/1152/1152.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.i
+.PHONY : CodingTestProject/1152/1152.cpp.i
+
+CodingTestProject/1152/1152.s: CodingTestProject/1152/1152.cpp.s
+.PHONY : CodingTestProject/1152/1152.s
+
+# target to generate assembly for a file
+CodingTestProject/1152/1152.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.s
+.PHONY : CodingTestProject/1152/1152.cpp.s
+
 CodingTestProject/11654/11654.obj: CodingTestProject/11654/11654.cpp.obj
 .PHONY : CodingTestProject/11654/11654.obj
 
@@ -1995,6 +2032,7 @@ help:
 	@echo ... 11021
 	@echo ... 11022
 	@echo ... 11382
+	@echo ... 1152
 	@echo ... 11654
 	@echo ... 11720
 	@echo ... 12865
@@ -2089,6 +2127,9 @@ help:
 	@echo ... CodingTestProject/11382/11382.obj
 	@echo ... CodingTestProject/11382/11382.i
 	@echo ... CodingTestProject/11382/11382.s
+	@echo ... CodingTestProject/1152/1152.obj
+	@echo ... CodingTestProject/1152/1152.i
+	@echo ... CodingTestProject/1152/1152.s
 	@echo ... CodingTestProject/11654/11654.obj
 	@echo ... CodingTestProject/11654/11654.i
 	@echo ... CodingTestProject/11654/11654.s
