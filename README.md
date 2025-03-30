@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `49`
+`🥉 Bronze                      ` `50`
 `🥈 Silver                      ` `0`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 50 Problems**
+**Total Solved: 51 Problems**
 </div>
 
 <details>
@@ -145,6 +145,8 @@
 🥉 [A+B - 8 (BOJ 11022)](CodingTestProject/11022/11022.cpp)
 
 🥉 [꼬마 정민 (BOJ 11382)](CodingTestProject/11382/11382.cpp)
+
+🥉 [단어의 개수 (BOJ 1152)](CodingTestProject/1152/1152.cpp)
 
 🥉 [아스키 코드 (BOJ 11654)](CodingTestProject/11654/11654.cpp)
 
@@ -281,6 +283,8 @@
 <div align="center">
 
 🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
+
+🥉 [단어의 개수 (BOJ 1152)](CodingTestProject/1152/1152.cpp)
 
 🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
 
