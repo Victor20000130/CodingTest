@@ -132,4 +132,19 @@ CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.obj: \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_ios.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
- C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algo.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/algorithmfwd.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_heap.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uniform_int_dist.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tempbuf.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_algorithm_defs.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/execution_defs.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc

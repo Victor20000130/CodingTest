@@ -8,32 +8,27 @@
 // 첫째 줄에 단어의 개수를 출력한다.
 
 #include <iostream>
+#include <sstream>
 using namespace std;
 int main()
 {
     string str;
-    int count;
     getline(cin, str);
-    for (int i = 0; i < str.length(); i++)
+    if (!str.empty() && ' ' == str[0])
     {
-        if (i == 0)
-        {
-            if (str[i] != ' ')
-            {
-                count++;
-            }
-        }
-
-        if (str[i] == ' ')
-        {
-            int temp = i + 1;
-            cout << (int)str[temp] << endl;
-            if (65 <= (int)str[temp] >= 122)
-            {
-                count++;
-            }
-        }
+        str.erase(0, 1);
     }
-
-    cout << count;
+    if (!str.empty() && ' ' == str[str.length() - 1])
+    {
+        str.erase(str.length() - 1, 1);
+    }
+    int strArrCount = 0;
+    strArrCount = 0;
+    istringstream iss(str);
+    string word;
+    while (iss >> word)
+    {
+        strArrCount++;
+    }
+    cout << strArrCount;
 }
