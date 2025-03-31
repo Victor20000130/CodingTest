@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `50`
+`🥉 Bronze                      ` `56`
 `🥈 Silver                      ` `0`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 51 Problems**
+**Total Solved: 57 Problems**
 </div>
 
 <details>
@@ -61,6 +61,8 @@
 🥉 [윤년 (BOJ 2753)](CodingTestProject/2753/2753.cpp)
 
 🥉 [알람 시계 (BOJ 2884)](CodingTestProject/2884/2884.cpp)
+
+🥉 [킹, 퀸, 룩, 비숍, 나이트, 폰 (BOJ 3003)](CodingTestProject/3003/3003.cpp)
 
 🥉 [나머지 (BOJ 3052)](CodingTestProject/3052/3052.cpp)
 
@@ -150,6 +152,8 @@
 
 🥉 [아스키 코드 (BOJ 11654)](CodingTestProject/11654/11654.cpp)
 
+🥉 [그대로 출력하기 (BOJ 11718)](CodingTestProject/11718/11718.cpp)
+
 🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
 
 🥉 [두 수 비교하기 (BOJ 1330)](CodingTestProject/1330/1330.cpp)
@@ -162,7 +166,11 @@
 
 🥉 [별 찍기 - 2 (BOJ 2439)](CodingTestProject/2439/2439.cpp)
 
+🥉 [별 찍기 - 7 (BOJ 2444)](CodingTestProject/2444/2444.cpp)
+
 🥉 [주사위 세개 (BOJ 2480)](CodingTestProject/2480/2480.cpp)
+
+🥉 [새싹 (BOJ 25083)](CodingTestProject/25083/25083.cpp)
 
 🥉 [영수증 (BOJ 25304)](CodingTestProject/25304/25304.cpp)
 
@@ -182,7 +190,13 @@
 
 🥉 [문자와 문자열 (BOJ 27866)](CodingTestProject/27866/27866.cpp)
 
+🥉 [상수 (BOJ 2908)](CodingTestProject/2908/2908.cpp)
+
+🥉 [킹, 퀸, 룩, 비숍, 나이트, 폰 (BOJ 3003)](CodingTestProject/3003/3003.cpp)
+
 🥉 [과제 안 내신 분..? (BOJ 5597)](CodingTestProject/5597/5597.cpp)
+
+🥉 [다이얼 (BOJ 5622)](CodingTestProject/5622/5622.cpp)
 
 🥉 [합 (BOJ 8393)](CodingTestProject/8393/8393.cpp)
 
@@ -256,6 +270,10 @@
 
 🥉 [알람 시계 (BOJ 2884)](CodingTestProject/2884/2884.cpp)
 
+🥉 [상수 (BOJ 2908)](CodingTestProject/2908/2908.cpp)
+
+🥉 [킹, 퀸, 룩, 비숍, 나이트, 폰 (BOJ 3003)](CodingTestProject/3003/3003.cpp)
+
 🥉 [나머지 (BOJ 3052)](CodingTestProject/3052/3052.cpp)
 
 🥉 [합 (BOJ 8393)](CodingTestProject/8393/8393.cpp)
@@ -285,6 +303,8 @@
 🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
 
 🥉 [단어의 개수 (BOJ 1152)](CodingTestProject/1152/1152.cpp)
+
+🥉 [그대로 출력하기 (BOJ 11718)](CodingTestProject/11718/11718.cpp)
 
 🥉 [숫자의 합 (BOJ 11720)](CodingTestProject/11720/11720.cpp)
 
