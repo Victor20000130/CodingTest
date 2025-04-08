@@ -6,13 +6,13 @@
 <div align="center">
 
 `🥉 Bronze                      ` `58`
-`🥈 Silver                      ` `1`
+`🥈 Silver                      ` `2`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 60 Problems**
+**Total Solved: 61 Problems**
 </div>
 
 <details>
@@ -103,6 +103,8 @@
 <summary>Implementation</summary>
 
 <div align="center">
+
+🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
 
 🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
 
@@ -305,6 +307,8 @@
 <summary>String</summary>
 
 <div align="center">
+
+🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
 
 🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
 
