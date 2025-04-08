@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2557/test_cases/2557/2557.exe"
-  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2557/test_cases/2557/2557.exe.manifest"
-  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2557/test_cases/2557/2557.pdb"
+  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2557/test_cases/2557/2557.exe"
+  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2557/test_cases/2557/2557.exe.manifest"
+  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2557/test_cases/2557/2557.pdb"
   "CMakeFiles/2557.dir/CodingTestProject/2557/2557.cpp.obj"
   "CMakeFiles/2557.dir/CodingTestProject/2557/2557.cpp.obj.d"
   "lib2557.dll.a"

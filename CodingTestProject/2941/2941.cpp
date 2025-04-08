@@ -46,14 +46,28 @@ int main()
     int count = 0;
     for (int i = 0; i < 8; i++)
     {
-
-        if (str.find(_croatiaPtr[i]) == string::npos)
+        int idx;
+        while (true)
         {
-            cout << _croatiaPtr[i] << endl;
+            if (str.find(_croatiaPtr[i]) != string::npos)
+            {
+                count++;
+                idx = str.find(_croatiaPtr[i]);
+                str.replace(str.find(_croatiaPtr[i]), _croatiaPtr[i].length(), " ");
+            }
+            if (str.find(_croatiaPtr[i]) == string::npos)
+            {
+                break;
+            }
+        }
+
+    }
+    for (int i = 0; i < str.length(); i++)
+    {
+        if (str[i] != ' ')
+        {
             count++;
-            //TODO 찾은 문자열 제거
         }
     }
-
     cout << count;
 }
