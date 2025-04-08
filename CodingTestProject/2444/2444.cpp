@@ -22,6 +22,52 @@ int main()
 {
     int input;
     int value;
+    int starCount = 0;
+    bool reverse = false;
     cin >> input;
     value = 2 * input - 1;
+
+    for (int i = 0; i < value; i++)
+    {
+
+        if (input > 0)
+        {
+            for (int j = input - 1; j > 0; j--)
+            {
+                if (j != 0)
+                {
+                    cout << " ";
+                }
+            }
+        }
+        if (input <= 0)
+        {
+            for (int j = input - 1; j < 0; j++)
+            {
+                cout << " ";
+            }
+        }
+
+        for (int k = 0; k <= starCount; k++)
+        {
+            cout << "*";
+        }
+
+        if (true == reverse)
+        {
+            starCount -= 2;
+        }
+
+        if (false == reverse)
+        {
+            starCount += 2;
+            if (starCount == value - 1)
+            {
+                reverse = true;
+            }
+        }
+
+        input--;
+        cout << endl;
+    }
 }

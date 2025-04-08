@@ -109,6 +109,12 @@
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10988.dir\\CodingTestProject\\10988\\10988.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\10988\\10988.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/10988/10988.cpp",
+  "output": "CMakeFiles/10988.dir/CodingTestProject/10988/10988.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10998.dir\\CodingTestProject\\10998\\10998.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\10998\\10998.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/10998/10998.cpp",
   "output": "CMakeFiles/10998.dir/CodingTestProject/10998/10998.cpp.obj"
@@ -136,6 +142,12 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\1152.dir\\CodingTestProject\\1152\\1152.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\1152\\1152.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/1152/1152.cpp",
   "output": "CMakeFiles/1152.dir/CodingTestProject/1152/1152.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\1157.dir\\CodingTestProject\\1157\\1157.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\1157\\1157.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/1157/1157.cpp",
+  "output": "CMakeFiles/1157.dir/CodingTestProject/1157/1157.cpp.obj"
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
@@ -298,6 +310,12 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2908.dir\\CodingTestProject\\2908\\2908.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\2908\\2908.cpp",
   "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2908/2908.cpp",
   "output": "CMakeFiles/2908.dir/CodingTestProject/2908/2908.cpp.obj"
+},
+{
+  "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2941.dir\\CodingTestProject\\2941\\2941.cpp.obj -c C:\\Users\\KGA\\Desktop\\CodingTestProject\\CodingTestProject\\2941\\2941.cpp",
+  "file": "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2941/2941.cpp",
+  "output": "CMakeFiles/2941.dir/CodingTestProject/2941/2941.cpp.obj"
 },
 {
   "directory": "C:/Users/KGA/Desktop/CodingTestProject/build",
