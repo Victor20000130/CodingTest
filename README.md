@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `56`
-`🥈 Silver                      ` `0`
+`🥉 Bronze                      ` `58`
+`🥈 Silver                      ` `2`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 57 Problems**
+**Total Solved: 61 Problems**
 </div>
 
 <details>
@@ -104,6 +104,10 @@
 
 <div align="center">
 
+🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
+
+🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
+
 🥉 [A+B (BOJ 1000)](CodingTestProject/1000/1000.cpp)
 
 🥉 [A-B (BOJ 1001)](CodingTestProject/1001/1001.cpp)
@@ -140,6 +144,8 @@
 
 🥉 [A+B - 5 (BOJ 10952)](CodingTestProject/10952/10952.cpp)
 
+🥉 [팰린드롬인지 확인하기 (BOJ 10988)](CodingTestProject/10988/10988.cpp)
+
 🥉 [A×B (BOJ 10998)](CodingTestProject/10998/10998.cpp)
 
 🥉 [A+B - 7 (BOJ 11021)](CodingTestProject/11021/11021.cpp)
@@ -149,6 +155,8 @@
 🥉 [꼬마 정민 (BOJ 11382)](CodingTestProject/11382/11382.cpp)
 
 🥉 [단어의 개수 (BOJ 1152)](CodingTestProject/1152/1152.cpp)
+
+🥉 [단어 공부 (BOJ 1157)](CodingTestProject/1157/1157.cpp)
 
 🥉 [아스키 코드 (BOJ 11654)](CodingTestProject/11654/11654.cpp)
 
@@ -300,9 +308,17 @@
 
 <div align="center">
 
+🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
+
+🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
+
 🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
 
+🥉 [팰린드롬인지 확인하기 (BOJ 10988)](CodingTestProject/10988/10988.cpp)
+
 🥉 [단어의 개수 (BOJ 1152)](CodingTestProject/1152/1152.cpp)
+
+🥉 [단어 공부 (BOJ 1157)](CodingTestProject/1157/1157.cpp)
 
 🥉 [그대로 출력하기 (BOJ 11718)](CodingTestProject/11718/11718.cpp)
 
