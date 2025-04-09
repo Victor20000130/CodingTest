@@ -12,31 +12,40 @@
 #include<vector>
 using namespace std;
 
-int main()
+bool GroupCheck(string str)
 {
-    vector<string> vStr;
-    string str;
-    cin >> str;
-
+    bool isGroup;
+    char current;
     for (int i = 0; i < str.length(); i++)
     {
+        current = str[i];
 
-        for (int j = i; j < str.length(); j++)
+    }
+
+    return isGroup;
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    vector<string> vStr;
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        string str;
+        cin >> str;
+        vStr.push_back(str);
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        if (GroupCheck(vStr[i]))
         {
-            if (str[i] == str[j])
-            {
-                continue;
-            }
-            else
-            {
-                string temp = str;
-                temp.erase((temp.begin() + j) - 1);
-                if (temp.find(str[i]) != string::npos)
-                {
-                    cout << temp << endl;
-                    cout << str[i] << endl;
-                }
-            }
+            count++;
         }
     }
+
+    cout << count;
+
 }

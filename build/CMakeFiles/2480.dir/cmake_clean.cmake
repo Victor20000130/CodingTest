@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2480/test_cases/2480/2480.exe"
-  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2480/test_cases/2480/2480.exe.manifest"
-  "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2480/test_cases/2480/2480.pdb"
+  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2480/test_cases/2480/2480.exe"
+  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2480/test_cases/2480/2480.exe.manifest"
+  "C:/Users/KGA/Desktop/CodingTestProject/CodingTestProject/2480/test_cases/2480/2480.pdb"
   "CMakeFiles/2480.dir/CodingTestProject/2480/2480.cpp.obj"
   "CMakeFiles/2480.dir/CodingTestProject/2480/2480.cpp.obj.d"
   "lib2480.dll.a"
