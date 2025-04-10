@@ -6,13 +6,13 @@
 <div align="center">
 
 `🥉 Bronze                      ` `58`
-`🥈 Silver                      ` `2`
+`🥈 Silver                      ` `3`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 61 Problems**
+**Total Solved: 62 Problems**
 </div>
 
 <details>
@@ -105,6 +105,8 @@
 <div align="center">
 
 🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
+
+🥈 [너의 평점은 (BOJ 25206)](CodingTestProject/25206/25206.cpp)
 
 🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
 
@@ -230,6 +232,8 @@
 
 <div align="center">
 
+🥈 [너의 평점은 (BOJ 25206)](CodingTestProject/25206/25206.cpp)
+
 🥉 [A+B (BOJ 1000)](CodingTestProject/1000/1000.cpp)
 
 🥉 [A-B (BOJ 1001)](CodingTestProject/1001/1001.cpp)
@@ -309,6 +313,8 @@
 <div align="center">
 
 🥈 [그룹 단어 체커 (BOJ 1316)](CodingTestProject/1316/1316.cpp)
+
+🥈 [너의 평점은 (BOJ 25206)](CodingTestProject/25206/25206.cpp)
 
 🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
 
