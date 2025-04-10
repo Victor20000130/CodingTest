@@ -14,15 +14,32 @@ using namespace std;
 
 bool GroupCheck(string str)
 {
-    bool isGroup;
-    char current;
     for (int i = 0; i < str.length(); i++)
     {
-        current = str[i];
-
+        char currentChar = str[i];
+        // int idxTracker = i;
+        for (int j = i + 1; j < str.length(); j++)
+        {
+            if (currentChar == str[j])
+            {
+                // idxTracker++;
+                // i = idxTracker;
+                i++;
+            }
+            else
+            {
+                for (int k = i + 1; k < str.length(); k++)
+                {
+                    if (currentChar == str[k])
+                    {
+                        return false;
+                    }
+                }
+                break;
+            }
+        }
     }
-
-    return isGroup;
+    return true;
 }
 
 int main()
@@ -45,7 +62,5 @@ int main()
             count++;
         }
     }
-
     cout << count;
-
 }

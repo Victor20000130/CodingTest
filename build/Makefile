@@ -636,6 +636,19 @@ depend:
 .PHONY : 25083/fast
 
 #=============================================================================
+# Target rules for targets named 25206
+
+# Build rule for target.
+25206: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 25206
+.PHONY : 25206
+
+# fast build rule for target.
+25206/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/build
+.PHONY : 25206/fast
+
+#=============================================================================
 # Target rules for targets named 2525
 
 # Build rule for target.
@@ -1868,6 +1881,30 @@ CodingTestProject/25083/25083.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/CodingTestProject/25083/25083.cpp.s
 .PHONY : CodingTestProject/25083/25083.cpp.s
 
+CodingTestProject/25206/25206.obj: CodingTestProject/25206/25206.cpp.obj
+.PHONY : CodingTestProject/25206/25206.obj
+
+# target to build an object file
+CodingTestProject/25206/25206.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/CodingTestProject/25206/25206.cpp.obj
+.PHONY : CodingTestProject/25206/25206.cpp.obj
+
+CodingTestProject/25206/25206.i: CodingTestProject/25206/25206.cpp.i
+.PHONY : CodingTestProject/25206/25206.i
+
+# target to preprocess a source file
+CodingTestProject/25206/25206.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/CodingTestProject/25206/25206.cpp.i
+.PHONY : CodingTestProject/25206/25206.cpp.i
+
+CodingTestProject/25206/25206.s: CodingTestProject/25206/25206.cpp.s
+.PHONY : CodingTestProject/25206/25206.s
+
+# target to generate assembly for a file
+CodingTestProject/25206/25206.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/CodingTestProject/25206/25206.cpp.s
+.PHONY : CodingTestProject/25206/25206.cpp.s
+
 CodingTestProject/2525/2525.obj: CodingTestProject/2525/2525.cpp.obj
 .PHONY : CodingTestProject/2525/2525.obj
 
@@ -2420,6 +2457,7 @@ help:
 	@echo ... 2444
 	@echo ... 2480
 	@echo ... 25083
+	@echo ... 25206
 	@echo ... 2525
 	@echo ... 25304
 	@echo ... 25314
@@ -2561,6 +2599,9 @@ help:
 	@echo ... CodingTestProject/25083/25083.obj
 	@echo ... CodingTestProject/25083/25083.i
 	@echo ... CodingTestProject/25083/25083.s
+	@echo ... CodingTestProject/25206/25206.obj
+	@echo ... CodingTestProject/25206/25206.i
+	@echo ... CodingTestProject/25206/25206.s
 	@echo ... CodingTestProject/2525/2525.obj
 	@echo ... CodingTestProject/2525/2525.i
 	@echo ... CodingTestProject/2525/2525.s
