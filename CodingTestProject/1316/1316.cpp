@@ -12,31 +12,55 @@
 #include<vector>
 using namespace std;
 
-int main()
+bool GroupCheck(string str)
 {
-    vector<string> vStr;
-    string str;
-    cin >> str;
-
     for (int i = 0; i < str.length(); i++)
     {
-
-        for (int j = i; j < str.length(); j++)
+        char currentChar = str[i];
+        // int idxTracker = i;
+        for (int j = i + 1; j < str.length(); j++)
         {
-            if (str[i] == str[j])
+            if (currentChar == str[j])
             {
-                continue;
+                // idxTracker++;
+                // i = idxTracker;
+                i++;
             }
             else
             {
-                string temp = str;
-                temp.erase((temp.begin() + j) - 1);
-                if (temp.find(str[i]) != string::npos)
+                for (int k = i + 1; k < str.length(); k++)
                 {
-                    cout << temp << endl;
-                    cout << str[i] << endl;
+                    if (currentChar == str[k])
+                    {
+                        return false;
+                    }
                 }
+                break;
             }
         }
     }
+    return true;
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    vector<string> vStr;
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        string str;
+        cin >> str;
+        vStr.push_back(str);
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        if (GroupCheck(vStr[i]))
+        {
+            count++;
+        }
+    }
+    cout << count;
 }

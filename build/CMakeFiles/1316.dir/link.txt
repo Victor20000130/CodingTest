@@ -1,3 +1,3 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\1316.dir/objects.a
+C:\MinGW\bin\cmake.exe -E rm -f CMakeFiles\1316.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\1316.dir/objects.a @CMakeFiles\1316.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\1316.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\1316\test_cases\1316\1316.exe -Wl,--out-implib,lib1316.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1316.dir\linkLibs.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\1316.dir/objects.a -Wl,--no-whole-archive -o C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\1316\test_cases\1316\1316.exe -Wl,--out-implib,lib1316.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1316.dir\linkLibs.rsp
