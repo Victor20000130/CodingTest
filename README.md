@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `58`
+`🥉 Bronze                      ` `60`
 `🥈 Silver                      ` `3`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 62 Problems**
+**Total Solved: 64 Problems**
 </div>
 
 <details>
@@ -57,6 +57,8 @@
 🥉 [영수증 (BOJ 25304)](CodingTestProject/25304/25304.cpp)
 
 🥉 [곱셈 (BOJ 2588)](CodingTestProject/2588/2588.cpp)
+
+🥉 [행렬 덧셈 (BOJ 2738)](CodingTestProject/2738/2738.cpp)
 
 🥉 [윤년 (BOJ 2753)](CodingTestProject/2753/2753.cpp)
 
@@ -190,7 +192,11 @@
 
 🥉 [최댓값 (BOJ 2562)](CodingTestProject/2562/2562.cpp)
 
+🥉 [최댓값 (BOJ 2566)](CodingTestProject/2566/2566.cpp)
+
 🥉 [문자열 반복 (BOJ 2675)](CodingTestProject/2675/2675.cpp)
+
+🥉 [행렬 덧셈 (BOJ 2738)](CodingTestProject/2738/2738.cpp)
 
 🥉 [구구단 (BOJ 2739)](CodingTestProject/2739/2739.cpp)
 
@@ -275,6 +281,8 @@
 🥉 [영수증 (BOJ 25304)](CodingTestProject/25304/25304.cpp)
 
 🥉 [곱셈 (BOJ 2588)](CodingTestProject/2588/2588.cpp)
+
+🥉 [행렬 덧셈 (BOJ 2738)](CodingTestProject/2738/2738.cpp)
 
 🥉 [구구단 (BOJ 2739)](CodingTestProject/2739/2739.cpp)
 
