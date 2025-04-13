@@ -1,3 +1,3 @@
-C:\MinGW\bin\cmake.exe -E rm -f CMakeFiles\10811.dir/objects.a
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\10811.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\10811.dir/objects.a @CMakeFiles\10811.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\10811.dir/objects.a -Wl,--no-whole-archive -o C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\10811\test_cases\10811\10811.exe -Wl,--out-implib,lib10811.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\10811.dir\linkLibs.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\10811.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\10811\test_cases\10811\10811.exe -Wl,--out-implib,lib10811.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\10811.dir\linkLibs.rsp

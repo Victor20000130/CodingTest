@@ -1,3 +1,3 @@
-C:\MinGW\bin\cmake.exe -E rm -f CMakeFiles\10430.dir/objects.a
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\10430.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\10430.dir/objects.a @CMakeFiles\10430.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\10430.dir/objects.a -Wl,--no-whole-archive -o C:\Users\KGA\Desktop\CodingTestProject\CodingTestProject\10430\test_cases\10430\10430.exe -Wl,--out-implib,lib10430.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\10430.dir\linkLibs.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\10430.dir/objects.a -Wl,--no-whole-archive -o C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\10430\test_cases\10430\10430.exe -Wl,--out-implib,lib10430.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\10430.dir\linkLibs.rsp
