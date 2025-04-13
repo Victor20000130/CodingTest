@@ -37,8 +37,20 @@
 // 적어도 한 과목은 등급이 P가 아님이 보장된다.
 #include <iostream>
 using namespace std;
-
+enum Unit
+{
+    One,
+    Two,
+    Three,
+    Four
+};
 int main()
 {
-    int temp;
+    string name, rating;
+    float point;
+    for (int i = 0; i < 20; i++)
+    {
+        cin >> name >> point >> rating;
+        cout << name << " " << point << " " << rating;
+    }
 }
