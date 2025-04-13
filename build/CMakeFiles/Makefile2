@@ -108,8 +108,10 @@ all: CMakeFiles/25304.dir/all
 all: CMakeFiles/25314.dir/all
 all: CMakeFiles/2557.dir/all
 all: CMakeFiles/2562.dir/all
+all: CMakeFiles/2566.dir/all
 all: CMakeFiles/2588.dir/all
 all: CMakeFiles/2675.dir/all
+all: CMakeFiles/2738.dir/all
 all: CMakeFiles/2739.dir/all
 all: CMakeFiles/2743.dir/all
 all: CMakeFiles/2753.dir/all
@@ -173,8 +175,10 @@ codegen: CMakeFiles/25304.dir/codegen
 codegen: CMakeFiles/25314.dir/codegen
 codegen: CMakeFiles/2557.dir/codegen
 codegen: CMakeFiles/2562.dir/codegen
+codegen: CMakeFiles/2566.dir/codegen
 codegen: CMakeFiles/2588.dir/codegen
 codegen: CMakeFiles/2675.dir/codegen
+codegen: CMakeFiles/2738.dir/codegen
 codegen: CMakeFiles/2739.dir/codegen
 codegen: CMakeFiles/2743.dir/codegen
 codegen: CMakeFiles/2753.dir/codegen
@@ -242,8 +246,10 @@ clean: CMakeFiles/25304.dir/clean
 clean: CMakeFiles/25314.dir/clean
 clean: CMakeFiles/2557.dir/clean
 clean: CMakeFiles/2562.dir/clean
+clean: CMakeFiles/2566.dir/clean
 clean: CMakeFiles/2588.dir/clean
 clean: CMakeFiles/2675.dir/clean
+clean: CMakeFiles/2738.dir/clean
 clean: CMakeFiles/2739.dir/clean
 clean: CMakeFiles/2743.dir/clean
 clean: CMakeFiles/2753.dir/clean
@@ -395,12 +401,12 @@ CMakeFiles/10171.dir/clean:
 CMakeFiles/10172.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10172.dir\build.make CMakeFiles/10172.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10172.dir\build.make CMakeFiles/10172.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=7,8 "Built target 10172"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=7 "Built target 10172"
 .PHONY : CMakeFiles/10172.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10172.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10172.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10172.dir/rule
@@ -412,7 +418,7 @@ CMakeFiles/10172.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10172.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10172.dir\build.make CMakeFiles/10172.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=7,8 "Finished codegen for target 10172"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=7 "Finished codegen for target 10172"
 .PHONY : CMakeFiles/10172.dir/codegen
 
 # clean rule for target.
@@ -427,12 +433,12 @@ CMakeFiles/10172.dir/clean:
 CMakeFiles/10430.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10430.dir\build.make CMakeFiles/10430.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10430.dir\build.make CMakeFiles/10430.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=9 "Built target 10430"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=8,9 "Built target 10430"
 .PHONY : CMakeFiles/10430.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10430.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10430.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10430.dir/rule
@@ -444,7 +450,7 @@ CMakeFiles/10430.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10430.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10430.dir\build.make CMakeFiles/10430.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=9 "Finished codegen for target 10430"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=8,9 "Finished codegen for target 10430"
 .PHONY : CMakeFiles/10430.dir/codegen
 
 # clean rule for target.
@@ -459,12 +465,12 @@ CMakeFiles/10430.dir/clean:
 CMakeFiles/10807.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10807.dir\build.make CMakeFiles/10807.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10807.dir\build.make CMakeFiles/10807.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=10,11 "Built target 10807"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=10 "Built target 10807"
 .PHONY : CMakeFiles/10807.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10807.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10807.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10807.dir/rule
@@ -476,7 +482,7 @@ CMakeFiles/10807.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10807.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10807.dir\build.make CMakeFiles/10807.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=10,11 "Finished codegen for target 10807"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=10 "Finished codegen for target 10807"
 .PHONY : CMakeFiles/10807.dir/codegen
 
 # clean rule for target.
@@ -491,12 +497,12 @@ CMakeFiles/10807.dir/clean:
 CMakeFiles/10809.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10809.dir\build.make CMakeFiles/10809.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10809.dir\build.make CMakeFiles/10809.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=12 "Built target 10809"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=11,12 "Built target 10809"
 .PHONY : CMakeFiles/10809.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10809.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10809.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10809.dir/rule
@@ -508,7 +514,7 @@ CMakeFiles/10809.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10809.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10809.dir\build.make CMakeFiles/10809.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=12 "Finished codegen for target 10809"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=11,12 "Finished codegen for target 10809"
 .PHONY : CMakeFiles/10809.dir/codegen
 
 # clean rule for target.
@@ -555,12 +561,12 @@ CMakeFiles/10810.dir/clean:
 CMakeFiles/10811.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=15,16 "Built target 10811"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=15 "Built target 10811"
 .PHONY : CMakeFiles/10811.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10811.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10811.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10811.dir/rule
@@ -572,7 +578,7 @@ CMakeFiles/10811.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10811.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10811.dir\build.make CMakeFiles/10811.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=15,16 "Finished codegen for target 10811"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=15 "Finished codegen for target 10811"
 .PHONY : CMakeFiles/10811.dir/codegen
 
 # clean rule for target.
@@ -587,12 +593,12 @@ CMakeFiles/10811.dir/clean:
 CMakeFiles/10813.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=17 "Built target 10813"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=16,17 "Built target 10813"
 .PHONY : CMakeFiles/10813.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10813.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10813.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10813.dir/rule
@@ -604,7 +610,7 @@ CMakeFiles/10813.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10813.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10813.dir\build.make CMakeFiles/10813.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=17 "Finished codegen for target 10813"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=16,17 "Finished codegen for target 10813"
 .PHONY : CMakeFiles/10813.dir/codegen
 
 # clean rule for target.
@@ -619,12 +625,12 @@ CMakeFiles/10813.dir/clean:
 CMakeFiles/10818.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10818.dir\build.make CMakeFiles/10818.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10818.dir\build.make CMakeFiles/10818.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=18,19 "Built target 10818"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=18 "Built target 10818"
 .PHONY : CMakeFiles/10818.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10818.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10818.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10818.dir/rule
@@ -636,7 +642,7 @@ CMakeFiles/10818.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10818.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10818.dir\build.make CMakeFiles/10818.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=18,19 "Finished codegen for target 10818"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=18 "Finished codegen for target 10818"
 .PHONY : CMakeFiles/10818.dir/codegen
 
 # clean rule for target.
@@ -651,12 +657,12 @@ CMakeFiles/10818.dir/clean:
 CMakeFiles/10869.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10869.dir\build.make CMakeFiles/10869.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10869.dir\build.make CMakeFiles/10869.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=20 "Built target 10869"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=19,20 "Built target 10869"
 .PHONY : CMakeFiles/10869.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10869.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10869.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10869.dir/rule
@@ -668,7 +674,7 @@ CMakeFiles/10869.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10869.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10869.dir\build.make CMakeFiles/10869.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=20 "Finished codegen for target 10869"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=19,20 "Finished codegen for target 10869"
 .PHONY : CMakeFiles/10869.dir/codegen
 
 # clean rule for target.
@@ -683,12 +689,12 @@ CMakeFiles/10869.dir/clean:
 CMakeFiles/10871.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10871.dir\build.make CMakeFiles/10871.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10871.dir\build.make CMakeFiles/10871.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=21,22 "Built target 10871"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=21 "Built target 10871"
 .PHONY : CMakeFiles/10871.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10871.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10871.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10871.dir/rule
@@ -700,7 +706,7 @@ CMakeFiles/10871.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10871.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10871.dir\build.make CMakeFiles/10871.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=21,22 "Finished codegen for target 10871"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=21 "Finished codegen for target 10871"
 .PHONY : CMakeFiles/10871.dir/codegen
 
 # clean rule for target.
@@ -715,7 +721,7 @@ CMakeFiles/10871.dir/clean:
 CMakeFiles/10926.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10926.dir\build.make CMakeFiles/10926.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10926.dir\build.make CMakeFiles/10926.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=23,24 "Built target 10926"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=22,23 "Built target 10926"
 .PHONY : CMakeFiles/10926.dir/all
 
 # Build rule for subdir invocation for target.
@@ -732,7 +738,7 @@ CMakeFiles/10926.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10926.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10926.dir\build.make CMakeFiles/10926.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=23,24 "Finished codegen for target 10926"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=22,23 "Finished codegen for target 10926"
 .PHONY : CMakeFiles/10926.dir/codegen
 
 # clean rule for target.
@@ -747,12 +753,12 @@ CMakeFiles/10926.dir/clean:
 CMakeFiles/10950.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10950.dir\build.make CMakeFiles/10950.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10950.dir\build.make CMakeFiles/10950.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=25 "Built target 10950"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=24,25 "Built target 10950"
 .PHONY : CMakeFiles/10950.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10950.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10950.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10950.dir/rule
@@ -764,7 +770,7 @@ CMakeFiles/10950.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10950.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10950.dir\build.make CMakeFiles/10950.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=25 "Finished codegen for target 10950"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=24,25 "Finished codegen for target 10950"
 .PHONY : CMakeFiles/10950.dir/codegen
 
 # clean rule for target.
@@ -779,12 +785,12 @@ CMakeFiles/10950.dir/clean:
 CMakeFiles/10951.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10951.dir\build.make CMakeFiles/10951.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10951.dir\build.make CMakeFiles/10951.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=26,27 "Built target 10951"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=26 "Built target 10951"
 .PHONY : CMakeFiles/10951.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10951.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10951.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/10951.dir/rule
@@ -796,7 +802,7 @@ CMakeFiles/10951.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10951.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10951.dir\build.make CMakeFiles/10951.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=26,27 "Finished codegen for target 10951"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=26 "Finished codegen for target 10951"
 .PHONY : CMakeFiles/10951.dir/codegen
 
 # clean rule for target.
@@ -811,7 +817,7 @@ CMakeFiles/10951.dir/clean:
 CMakeFiles/10952.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10952.dir\build.make CMakeFiles/10952.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10952.dir\build.make CMakeFiles/10952.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=28,29 "Built target 10952"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=27,28 "Built target 10952"
 .PHONY : CMakeFiles/10952.dir/all
 
 # Build rule for subdir invocation for target.
@@ -828,7 +834,7 @@ CMakeFiles/10952.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10952.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10952.dir\build.make CMakeFiles/10952.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=28,29 "Finished codegen for target 10952"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=27,28 "Finished codegen for target 10952"
 .PHONY : CMakeFiles/10952.dir/codegen
 
 # clean rule for target.
@@ -843,7 +849,7 @@ CMakeFiles/10952.dir/clean:
 CMakeFiles/10988.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10988.dir\build.make CMakeFiles/10988.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10988.dir\build.make CMakeFiles/10988.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=30 "Built target 10988"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=29 "Built target 10988"
 .PHONY : CMakeFiles/10988.dir/all
 
 # Build rule for subdir invocation for target.
@@ -860,7 +866,7 @@ CMakeFiles/10988.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10988.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10988.dir\build.make CMakeFiles/10988.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=30 "Finished codegen for target 10988"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=29 "Finished codegen for target 10988"
 .PHONY : CMakeFiles/10988.dir/codegen
 
 # clean rule for target.
@@ -875,7 +881,7 @@ CMakeFiles/10988.dir/clean:
 CMakeFiles/10998.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10998.dir\build.make CMakeFiles/10998.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10998.dir\build.make CMakeFiles/10998.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=31,32 "Built target 10998"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=30,31 "Built target 10998"
 .PHONY : CMakeFiles/10998.dir/all
 
 # Build rule for subdir invocation for target.
@@ -892,7 +898,7 @@ CMakeFiles/10998.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/10998.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10998.dir\build.make CMakeFiles/10998.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=31,32 "Finished codegen for target 10998"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=30,31 "Finished codegen for target 10998"
 .PHONY : CMakeFiles/10998.dir/codegen
 
 # clean rule for target.
@@ -907,7 +913,7 @@ CMakeFiles/10998.dir/clean:
 CMakeFiles/11021.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11021.dir\build.make CMakeFiles/11021.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11021.dir\build.make CMakeFiles/11021.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=33 "Built target 11021"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=32 "Built target 11021"
 .PHONY : CMakeFiles/11021.dir/all
 
 # Build rule for subdir invocation for target.
@@ -924,7 +930,7 @@ CMakeFiles/11021.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11021.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11021.dir\build.make CMakeFiles/11021.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=33 "Finished codegen for target 11021"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=32 "Finished codegen for target 11021"
 .PHONY : CMakeFiles/11021.dir/codegen
 
 # clean rule for target.
@@ -939,7 +945,7 @@ CMakeFiles/11021.dir/clean:
 CMakeFiles/11022.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11022.dir\build.make CMakeFiles/11022.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11022.dir\build.make CMakeFiles/11022.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=34,35 "Built target 11022"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=33,34 "Built target 11022"
 .PHONY : CMakeFiles/11022.dir/all
 
 # Build rule for subdir invocation for target.
@@ -956,7 +962,7 @@ CMakeFiles/11022.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11022.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11022.dir\build.make CMakeFiles/11022.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=34,35 "Finished codegen for target 11022"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=33,34 "Finished codegen for target 11022"
 .PHONY : CMakeFiles/11022.dir/codegen
 
 # clean rule for target.
@@ -971,12 +977,12 @@ CMakeFiles/11022.dir/clean:
 CMakeFiles/11382.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11382.dir\build.make CMakeFiles/11382.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11382.dir\build.make CMakeFiles/11382.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=36,37 "Built target 11382"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=35 "Built target 11382"
 .PHONY : CMakeFiles/11382.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/11382.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/11382.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/11382.dir/rule
@@ -988,7 +994,7 @@ CMakeFiles/11382.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11382.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11382.dir\build.make CMakeFiles/11382.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=36,37 "Finished codegen for target 11382"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=35 "Finished codegen for target 11382"
 .PHONY : CMakeFiles/11382.dir/codegen
 
 # clean rule for target.
@@ -1003,12 +1009,12 @@ CMakeFiles/11382.dir/clean:
 CMakeFiles/1152.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=38 "Built target 1152"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=36,37 "Built target 1152"
 .PHONY : CMakeFiles/1152.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1152.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1152.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/1152.dir/rule
@@ -1020,7 +1026,7 @@ CMakeFiles/1152.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/1152.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1152.dir\build.make CMakeFiles/1152.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=38 "Finished codegen for target 1152"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=36,37 "Finished codegen for target 1152"
 .PHONY : CMakeFiles/1152.dir/codegen
 
 # clean rule for target.
@@ -1035,7 +1041,7 @@ CMakeFiles/1152.dir/clean:
 CMakeFiles/1157.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1157.dir\build.make CMakeFiles/1157.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1157.dir\build.make CMakeFiles/1157.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=39,40 "Built target 1157"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=38,39 "Built target 1157"
 .PHONY : CMakeFiles/1157.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1052,7 +1058,7 @@ CMakeFiles/1157.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/1157.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1157.dir\build.make CMakeFiles/1157.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=39,40 "Finished codegen for target 1157"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=38,39 "Finished codegen for target 1157"
 .PHONY : CMakeFiles/1157.dir/codegen
 
 # clean rule for target.
@@ -1067,7 +1073,7 @@ CMakeFiles/1157.dir/clean:
 CMakeFiles/11654.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11654.dir\build.make CMakeFiles/11654.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11654.dir\build.make CMakeFiles/11654.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=41 "Built target 11654"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=40 "Built target 11654"
 .PHONY : CMakeFiles/11654.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1084,7 +1090,7 @@ CMakeFiles/11654.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11654.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11654.dir\build.make CMakeFiles/11654.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=41 "Finished codegen for target 11654"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=40 "Finished codegen for target 11654"
 .PHONY : CMakeFiles/11654.dir/codegen
 
 # clean rule for target.
@@ -1099,7 +1105,7 @@ CMakeFiles/11654.dir/clean:
 CMakeFiles/11718.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11718.dir\build.make CMakeFiles/11718.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11718.dir\build.make CMakeFiles/11718.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=42,43 "Built target 11718"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=41,42 "Built target 11718"
 .PHONY : CMakeFiles/11718.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1116,7 +1122,7 @@ CMakeFiles/11718.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11718.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11718.dir\build.make CMakeFiles/11718.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=42,43 "Finished codegen for target 11718"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=41,42 "Finished codegen for target 11718"
 .PHONY : CMakeFiles/11718.dir/codegen
 
 # clean rule for target.
@@ -1131,12 +1137,12 @@ CMakeFiles/11718.dir/clean:
 CMakeFiles/11720.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11720.dir\build.make CMakeFiles/11720.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11720.dir\build.make CMakeFiles/11720.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=44,45 "Built target 11720"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=43 "Built target 11720"
 .PHONY : CMakeFiles/11720.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/11720.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/11720.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/11720.dir/rule
@@ -1148,7 +1154,7 @@ CMakeFiles/11720.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/11720.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11720.dir\build.make CMakeFiles/11720.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=44,45 "Finished codegen for target 11720"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=43 "Finished codegen for target 11720"
 .PHONY : CMakeFiles/11720.dir/codegen
 
 # clean rule for target.
@@ -1163,12 +1169,12 @@ CMakeFiles/11720.dir/clean:
 CMakeFiles/12865.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12865.dir\build.make CMakeFiles/12865.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12865.dir\build.make CMakeFiles/12865.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=46 "Built target 12865"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=44,45 "Built target 12865"
 .PHONY : CMakeFiles/12865.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/12865.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/12865.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/12865.dir/rule
@@ -1180,7 +1186,7 @@ CMakeFiles/12865.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/12865.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12865.dir\build.make CMakeFiles/12865.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=46 "Finished codegen for target 12865"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=44,45 "Finished codegen for target 12865"
 .PHONY : CMakeFiles/12865.dir/codegen
 
 # clean rule for target.
@@ -1195,12 +1201,12 @@ CMakeFiles/12865.dir/clean:
 CMakeFiles/1316.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1316.dir\build.make CMakeFiles/1316.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1316.dir\build.make CMakeFiles/1316.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=47,48 "Built target 1316"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=46 "Built target 1316"
 .PHONY : CMakeFiles/1316.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1316.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1316.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/1316.dir/rule
@@ -1212,7 +1218,7 @@ CMakeFiles/1316.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/1316.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1316.dir\build.make CMakeFiles/1316.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=47,48 "Finished codegen for target 1316"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=46 "Finished codegen for target 1316"
 .PHONY : CMakeFiles/1316.dir/codegen
 
 # clean rule for target.
@@ -1227,7 +1233,7 @@ CMakeFiles/1316.dir/clean:
 CMakeFiles/1330.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1330.dir\build.make CMakeFiles/1330.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1330.dir\build.make CMakeFiles/1330.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=49,50 "Built target 1330"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=47,48 "Built target 1330"
 .PHONY : CMakeFiles/1330.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1244,7 +1250,7 @@ CMakeFiles/1330.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/1330.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1330.dir\build.make CMakeFiles/1330.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=49,50 "Finished codegen for target 1330"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=47,48 "Finished codegen for target 1330"
 .PHONY : CMakeFiles/1330.dir/codegen
 
 # clean rule for target.
@@ -1259,12 +1265,12 @@ CMakeFiles/1330.dir/clean:
 CMakeFiles/14681.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14681.dir\build.make CMakeFiles/14681.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14681.dir\build.make CMakeFiles/14681.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=51 "Built target 14681"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=49,50 "Built target 14681"
 .PHONY : CMakeFiles/14681.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/14681.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/14681.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/14681.dir/rule
@@ -1276,7 +1282,7 @@ CMakeFiles/14681.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/14681.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14681.dir\build.make CMakeFiles/14681.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=51 "Finished codegen for target 14681"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=49,50 "Finished codegen for target 14681"
 .PHONY : CMakeFiles/14681.dir/codegen
 
 # clean rule for target.
@@ -1291,12 +1297,12 @@ CMakeFiles/14681.dir/clean:
 CMakeFiles/1546.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1546.dir\build.make CMakeFiles/1546.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1546.dir\build.make CMakeFiles/1546.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=52,53 "Built target 1546"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=51 "Built target 1546"
 .PHONY : CMakeFiles/1546.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1546.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1546.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/1546.dir/rule
@@ -1308,7 +1314,7 @@ CMakeFiles/1546.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/1546.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1546.dir\build.make CMakeFiles/1546.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=52,53 "Finished codegen for target 1546"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=51 "Finished codegen for target 1546"
 .PHONY : CMakeFiles/1546.dir/codegen
 
 # clean rule for target.
@@ -1323,12 +1329,12 @@ CMakeFiles/1546.dir/clean:
 CMakeFiles/15552.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15552.dir\build.make CMakeFiles/15552.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15552.dir\build.make CMakeFiles/15552.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=54 "Built target 15552"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=52,53 "Built target 15552"
 .PHONY : CMakeFiles/15552.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/15552.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/15552.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/15552.dir/rule
@@ -1340,7 +1346,7 @@ CMakeFiles/15552.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/15552.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15552.dir\build.make CMakeFiles/15552.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=54 "Finished codegen for target 15552"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=52,53 "Finished codegen for target 15552"
 .PHONY : CMakeFiles/15552.dir/codegen
 
 # clean rule for target.
@@ -1355,12 +1361,12 @@ CMakeFiles/15552.dir/clean:
 CMakeFiles/18108.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\18108.dir\build.make CMakeFiles/18108.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\18108.dir\build.make CMakeFiles/18108.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=55,56 "Built target 18108"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=54 "Built target 18108"
 .PHONY : CMakeFiles/18108.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/18108.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/18108.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/18108.dir/rule
@@ -1372,7 +1378,7 @@ CMakeFiles/18108.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/18108.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\18108.dir\build.make CMakeFiles/18108.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=55,56 "Finished codegen for target 18108"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=54 "Finished codegen for target 18108"
 .PHONY : CMakeFiles/18108.dir/codegen
 
 # clean rule for target.
@@ -1387,7 +1393,7 @@ CMakeFiles/18108.dir/clean:
 CMakeFiles/2438.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2438.dir\build.make CMakeFiles/2438.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2438.dir\build.make CMakeFiles/2438.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=57,58 "Built target 2438"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=55,56 "Built target 2438"
 .PHONY : CMakeFiles/2438.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1404,7 +1410,7 @@ CMakeFiles/2438.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2438.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2438.dir\build.make CMakeFiles/2438.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=57,58 "Finished codegen for target 2438"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=55,56 "Finished codegen for target 2438"
 .PHONY : CMakeFiles/2438.dir/codegen
 
 # clean rule for target.
@@ -1419,7 +1425,7 @@ CMakeFiles/2438.dir/clean:
 CMakeFiles/2439.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2439.dir\build.make CMakeFiles/2439.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2439.dir\build.make CMakeFiles/2439.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=59 "Built target 2439"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=57 "Built target 2439"
 .PHONY : CMakeFiles/2439.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1436,7 +1442,7 @@ CMakeFiles/2439.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2439.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2439.dir\build.make CMakeFiles/2439.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=59 "Finished codegen for target 2439"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=57 "Finished codegen for target 2439"
 .PHONY : CMakeFiles/2439.dir/codegen
 
 # clean rule for target.
@@ -1451,7 +1457,7 @@ CMakeFiles/2439.dir/clean:
 CMakeFiles/2444.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2444.dir\build.make CMakeFiles/2444.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2444.dir\build.make CMakeFiles/2444.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=60,61 "Built target 2444"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=58,59 "Built target 2444"
 .PHONY : CMakeFiles/2444.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1468,7 +1474,7 @@ CMakeFiles/2444.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2444.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2444.dir\build.make CMakeFiles/2444.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=60,61 "Finished codegen for target 2444"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=58,59 "Finished codegen for target 2444"
 .PHONY : CMakeFiles/2444.dir/codegen
 
 # clean rule for target.
@@ -1483,7 +1489,7 @@ CMakeFiles/2444.dir/clean:
 CMakeFiles/2480.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2480.dir\build.make CMakeFiles/2480.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2480.dir\build.make CMakeFiles/2480.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=62 "Built target 2480"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=60 "Built target 2480"
 .PHONY : CMakeFiles/2480.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1500,7 +1506,7 @@ CMakeFiles/2480.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2480.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2480.dir\build.make CMakeFiles/2480.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=62 "Finished codegen for target 2480"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=60 "Finished codegen for target 2480"
 .PHONY : CMakeFiles/2480.dir/codegen
 
 # clean rule for target.
@@ -1515,7 +1521,7 @@ CMakeFiles/2480.dir/clean:
 CMakeFiles/25083.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=63,64 "Built target 25083"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=61,62 "Built target 25083"
 .PHONY : CMakeFiles/25083.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1532,7 +1538,7 @@ CMakeFiles/25083.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/25083.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=63,64 "Finished codegen for target 25083"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=61,62 "Finished codegen for target 25083"
 .PHONY : CMakeFiles/25083.dir/codegen
 
 # clean rule for target.
@@ -1547,7 +1553,7 @@ CMakeFiles/25083.dir/clean:
 CMakeFiles/25206.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=65,66 "Built target 25206"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=63,64 "Built target 25206"
 .PHONY : CMakeFiles/25206.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1564,7 +1570,7 @@ CMakeFiles/25206.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/25206.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25206.dir\build.make CMakeFiles/25206.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=65,66 "Finished codegen for target 25206"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=63,64 "Finished codegen for target 25206"
 .PHONY : CMakeFiles/25206.dir/codegen
 
 # clean rule for target.
@@ -1579,7 +1585,7 @@ CMakeFiles/25206.dir/clean:
 CMakeFiles/2525.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2525.dir\build.make CMakeFiles/2525.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2525.dir\build.make CMakeFiles/2525.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=67 "Built target 2525"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=65 "Built target 2525"
 .PHONY : CMakeFiles/2525.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1596,7 +1602,7 @@ CMakeFiles/2525.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2525.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2525.dir\build.make CMakeFiles/2525.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=67 "Finished codegen for target 2525"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=65 "Finished codegen for target 2525"
 .PHONY : CMakeFiles/2525.dir/codegen
 
 # clean rule for target.
@@ -1611,7 +1617,7 @@ CMakeFiles/2525.dir/clean:
 CMakeFiles/25304.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25304.dir\build.make CMakeFiles/25304.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25304.dir\build.make CMakeFiles/25304.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=68,69 "Built target 25304"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=66,67 "Built target 25304"
 .PHONY : CMakeFiles/25304.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1628,7 +1634,7 @@ CMakeFiles/25304.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/25304.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25304.dir\build.make CMakeFiles/25304.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=68,69 "Finished codegen for target 25304"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=66,67 "Finished codegen for target 25304"
 .PHONY : CMakeFiles/25304.dir/codegen
 
 # clean rule for target.
@@ -1643,7 +1649,7 @@ CMakeFiles/25304.dir/clean:
 CMakeFiles/25314.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25314.dir\build.make CMakeFiles/25314.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25314.dir\build.make CMakeFiles/25314.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=70 "Built target 25314"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=68 "Built target 25314"
 .PHONY : CMakeFiles/25314.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1660,7 +1666,7 @@ CMakeFiles/25314.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/25314.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25314.dir\build.make CMakeFiles/25314.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=70 "Finished codegen for target 25314"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=68 "Finished codegen for target 25314"
 .PHONY : CMakeFiles/25314.dir/codegen
 
 # clean rule for target.
@@ -1675,7 +1681,7 @@ CMakeFiles/25314.dir/clean:
 CMakeFiles/2557.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2557.dir\build.make CMakeFiles/2557.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2557.dir\build.make CMakeFiles/2557.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=71,72 "Built target 2557"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=69,70 "Built target 2557"
 .PHONY : CMakeFiles/2557.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1692,7 +1698,7 @@ CMakeFiles/2557.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2557.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2557.dir\build.make CMakeFiles/2557.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=71,72 "Finished codegen for target 2557"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=69,70 "Finished codegen for target 2557"
 .PHONY : CMakeFiles/2557.dir/codegen
 
 # clean rule for target.
@@ -1707,12 +1713,12 @@ CMakeFiles/2557.dir/clean:
 CMakeFiles/2562.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2562.dir\build.make CMakeFiles/2562.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2562.dir\build.make CMakeFiles/2562.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=73,74 "Built target 2562"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=71 "Built target 2562"
 .PHONY : CMakeFiles/2562.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2562.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2562.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2562.dir/rule
@@ -1724,7 +1730,7 @@ CMakeFiles/2562.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2562.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2562.dir\build.make CMakeFiles/2562.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=73,74 "Finished codegen for target 2562"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=71 "Finished codegen for target 2562"
 .PHONY : CMakeFiles/2562.dir/codegen
 
 # clean rule for target.
@@ -1733,18 +1739,50 @@ CMakeFiles/2562.dir/clean:
 .PHONY : CMakeFiles/2562.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2566.dir
+
+# All Build rule for target.
+CMakeFiles/2566.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2566.dir\build.make CMakeFiles/2566.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2566.dir\build.make CMakeFiles/2566.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=72,73 "Built target 2566"
+.PHONY : CMakeFiles/2566.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2566.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2566.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
+.PHONY : CMakeFiles/2566.dir/rule
+
+# Convenience name for target.
+2566: CMakeFiles/2566.dir/rule
+.PHONY : 2566
+
+# codegen rule for target.
+CMakeFiles/2566.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2566.dir\build.make CMakeFiles/2566.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=72,73 "Finished codegen for target 2566"
+.PHONY : CMakeFiles/2566.dir/codegen
+
+# clean rule for target.
+CMakeFiles/2566.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2566.dir\build.make CMakeFiles/2566.dir/clean
+.PHONY : CMakeFiles/2566.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2588.dir
 
 # All Build rule for target.
 CMakeFiles/2588.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2588.dir\build.make CMakeFiles/2588.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2588.dir\build.make CMakeFiles/2588.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=75 "Built target 2588"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=74,75 "Built target 2588"
 .PHONY : CMakeFiles/2588.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2588.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2588.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2588.dir/rule
@@ -1756,7 +1794,7 @@ CMakeFiles/2588.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2588.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2588.dir\build.make CMakeFiles/2588.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=75 "Finished codegen for target 2588"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=74,75 "Finished codegen for target 2588"
 .PHONY : CMakeFiles/2588.dir/codegen
 
 # clean rule for target.
@@ -1771,12 +1809,12 @@ CMakeFiles/2588.dir/clean:
 CMakeFiles/2675.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2675.dir\build.make CMakeFiles/2675.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2675.dir\build.make CMakeFiles/2675.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=76,77 "Built target 2675"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=76 "Built target 2675"
 .PHONY : CMakeFiles/2675.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2675.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2675.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2675.dir/rule
@@ -1788,7 +1826,7 @@ CMakeFiles/2675.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2675.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2675.dir\build.make CMakeFiles/2675.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=76,77 "Finished codegen for target 2675"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=76 "Finished codegen for target 2675"
 .PHONY : CMakeFiles/2675.dir/codegen
 
 # clean rule for target.
@@ -1797,18 +1835,50 @@ CMakeFiles/2675.dir/clean:
 .PHONY : CMakeFiles/2675.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2738.dir
+
+# All Build rule for target.
+CMakeFiles/2738.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2738.dir\build.make CMakeFiles/2738.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2738.dir\build.make CMakeFiles/2738.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=77,78 "Built target 2738"
+.PHONY : CMakeFiles/2738.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2738.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2738.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
+.PHONY : CMakeFiles/2738.dir/rule
+
+# Convenience name for target.
+2738: CMakeFiles/2738.dir/rule
+.PHONY : 2738
+
+# codegen rule for target.
+CMakeFiles/2738.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2738.dir\build.make CMakeFiles/2738.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=77,78 "Finished codegen for target 2738"
+.PHONY : CMakeFiles/2738.dir/codegen
+
+# clean rule for target.
+CMakeFiles/2738.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2738.dir\build.make CMakeFiles/2738.dir/clean
+.PHONY : CMakeFiles/2738.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2739.dir
 
 # All Build rule for target.
 CMakeFiles/2739.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2739.dir\build.make CMakeFiles/2739.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2739.dir\build.make CMakeFiles/2739.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=78,79 "Built target 2739"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=79 "Built target 2739"
 .PHONY : CMakeFiles/2739.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2739.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2739.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2739.dir/rule
@@ -1820,7 +1890,7 @@ CMakeFiles/2739.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2739.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2739.dir\build.make CMakeFiles/2739.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=78,79 "Finished codegen for target 2739"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=79 "Finished codegen for target 2739"
 .PHONY : CMakeFiles/2739.dir/codegen
 
 # clean rule for target.
@@ -1835,12 +1905,12 @@ CMakeFiles/2739.dir/clean:
 CMakeFiles/2743.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=80 "Built target 2743"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=80,81 "Built target 2743"
 .PHONY : CMakeFiles/2743.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2743.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2743.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2743.dir/rule
@@ -1852,7 +1922,7 @@ CMakeFiles/2743.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2743.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2743.dir\build.make CMakeFiles/2743.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=80 "Finished codegen for target 2743"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=80,81 "Finished codegen for target 2743"
 .PHONY : CMakeFiles/2743.dir/codegen
 
 # clean rule for target.
@@ -1867,12 +1937,12 @@ CMakeFiles/2743.dir/clean:
 CMakeFiles/2753.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2753.dir\build.make CMakeFiles/2753.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2753.dir\build.make CMakeFiles/2753.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=81,82 "Built target 2753"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=82 "Built target 2753"
 .PHONY : CMakeFiles/2753.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2753.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2753.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2753.dir/rule
@@ -1884,7 +1954,7 @@ CMakeFiles/2753.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2753.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2753.dir\build.make CMakeFiles/2753.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=81,82 "Finished codegen for target 2753"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=82 "Finished codegen for target 2753"
 .PHONY : CMakeFiles/2753.dir/codegen
 
 # clean rule for target.
@@ -1899,12 +1969,12 @@ CMakeFiles/2753.dir/clean:
 CMakeFiles/27866.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=83 "Built target 27866"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=83,84 "Built target 27866"
 .PHONY : CMakeFiles/27866.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/27866.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/27866.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/27866.dir/rule
@@ -1916,7 +1986,7 @@ CMakeFiles/27866.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/27866.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27866.dir\build.make CMakeFiles/27866.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=83 "Finished codegen for target 27866"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=83,84 "Finished codegen for target 27866"
 .PHONY : CMakeFiles/27866.dir/codegen
 
 # clean rule for target.
@@ -1931,12 +2001,12 @@ CMakeFiles/27866.dir/clean:
 CMakeFiles/2884.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2884.dir\build.make CMakeFiles/2884.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2884.dir\build.make CMakeFiles/2884.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=84,85 "Built target 2884"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=85 "Built target 2884"
 .PHONY : CMakeFiles/2884.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2884.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2884.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2884.dir/rule
@@ -1948,7 +2018,7 @@ CMakeFiles/2884.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2884.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2884.dir\build.make CMakeFiles/2884.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=84,85 "Finished codegen for target 2884"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=85 "Finished codegen for target 2884"
 .PHONY : CMakeFiles/2884.dir/codegen
 
 # clean rule for target.
@@ -1995,12 +2065,12 @@ CMakeFiles/2908.dir/clean:
 CMakeFiles/2941.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2941.dir\build.make CMakeFiles/2941.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2941.dir\build.make CMakeFiles/2941.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=88 "Built target 2941"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=88,89 "Built target 2941"
 .PHONY : CMakeFiles/2941.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2941.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2941.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/2941.dir/rule
@@ -2012,7 +2082,7 @@ CMakeFiles/2941.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/2941.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2941.dir\build.make CMakeFiles/2941.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=88 "Finished codegen for target 2941"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=88,89 "Finished codegen for target 2941"
 .PHONY : CMakeFiles/2941.dir/codegen
 
 # clean rule for target.
@@ -2027,12 +2097,12 @@ CMakeFiles/2941.dir/clean:
 CMakeFiles/3003.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3003.dir\build.make CMakeFiles/3003.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3003.dir\build.make CMakeFiles/3003.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=89,90 "Built target 3003"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=90 "Built target 3003"
 .PHONY : CMakeFiles/3003.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3003.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3003.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/3003.dir/rule
@@ -2044,7 +2114,7 @@ CMakeFiles/3003.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/3003.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3003.dir\build.make CMakeFiles/3003.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=89,90 "Finished codegen for target 3003"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=90 "Finished codegen for target 3003"
 .PHONY : CMakeFiles/3003.dir/codegen
 
 # clean rule for target.
@@ -2059,12 +2129,12 @@ CMakeFiles/3003.dir/clean:
 CMakeFiles/3052.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=91 "Built target 3052"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=91,92 "Built target 3052"
 .PHONY : CMakeFiles/3052.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3052.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3052.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/3052.dir/rule
@@ -2076,7 +2146,7 @@ CMakeFiles/3052.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/3052.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3052.dir\build.make CMakeFiles/3052.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=91 "Finished codegen for target 3052"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=91,92 "Finished codegen for target 3052"
 .PHONY : CMakeFiles/3052.dir/codegen
 
 # clean rule for target.
@@ -2091,12 +2161,12 @@ CMakeFiles/3052.dir/clean:
 CMakeFiles/5597.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=92,93 "Built target 5597"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=93 "Built target 5597"
 .PHONY : CMakeFiles/5597.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/5597.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/5597.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/5597.dir/rule
@@ -2108,7 +2178,7 @@ CMakeFiles/5597.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/5597.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5597.dir\build.make CMakeFiles/5597.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=92,93 "Finished codegen for target 5597"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\qpalz\Desktop\AllStudy\CodingTest\build\CMakeFiles --progress-num=93 "Finished codegen for target 5597"
 .PHONY : CMakeFiles/5597.dir/codegen
 
 # clean rule for target.

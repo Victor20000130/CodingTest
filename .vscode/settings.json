@@ -73,7 +73,8 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "variant": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "iomanip": "cpp"
   },
   "files.exclude": {
     "**/build": false

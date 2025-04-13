@@ -36,21 +36,37 @@
 // 등급은 A+,A0,B+,B0,C+,C0,D+,D0,F,P중 하나이다.
 // 적어도 한 과목은 등급이 P가 아님이 보장된다.
 #include <iostream>
+#include <map>
+#include <string>
+#include<iomanip>
 using namespace std;
-enum Unit
-{
-    One,
-    Two,
-    Three,
-    Four
-};
+
 int main()
 {
-    string name, rating;
-    float point;
+    map<string, double> gradeMap
+    {
+        {"A+", 4.5f},
+        {"A0", 4.0f},
+        {"B+", 3.5f},
+        {"B0", 3.0f},
+        {"C+", 2.5f},
+        {"C0", 2.0f},
+        {"D+", 1.5f},
+        {"D0", 1.0f},
+        {"F", 0.0f}
+    };
+    string name, point, rating;
+    double totalUnit = 0;
+    double unitXrating = 0;
     for (int i = 0; i < 20; i++)
     {
         cin >> name >> point >> rating;
-        cout << name << " " << point << " " << rating;
+        if (rating == "P")
+        {
+            continue;
+        }
+        totalUnit += stof(point);
+        unitXrating += (stof(point) * gradeMap[rating]);
     }
+    cout << fixed << setprecision(6) << unitXrating / totalUnit << endl;
 }

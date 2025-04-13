@@ -277,6 +277,12 @@
 },
 {
   "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2566.dir\\CodingTestProject\\2566\\2566.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\2566\\2566.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2566/2566.cpp",
+  "output": "CMakeFiles/2566.dir/CodingTestProject/2566/2566.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2588.dir\\CodingTestProject\\2588\\2588.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\2588\\2588.cpp",
   "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2588/2588.cpp",
   "output": "CMakeFiles/2588.dir/CodingTestProject/2588/2588.cpp.obj"
@@ -286,6 +292,12 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2675.dir\\CodingTestProject\\2675\\2675.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\2675\\2675.cpp",
   "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2675/2675.cpp",
   "output": "CMakeFiles/2675.dir/CodingTestProject/2675/2675.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\2738.dir\\CodingTestProject\\2738\\2738.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\2738\\2738.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/2738/2738.cpp",
+  "output": "CMakeFiles/2738.dir/CodingTestProject/2738/2738.cpp.obj"
 },
 {
   "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",

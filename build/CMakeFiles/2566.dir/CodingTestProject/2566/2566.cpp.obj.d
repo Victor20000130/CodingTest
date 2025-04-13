@@ -1,5 +1,5 @@
-CMakeFiles/25206.dir/CodingTestProject/25206/25206.cpp.obj: \
- C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\25206\25206.cpp \
+CMakeFiles/2566.dir/CodingTestProject/2566/2566.cpp.obj: \
+ C:\Users\qpalz\Desktop\AllStudy\CodingTest\CodingTestProject\2566\2566.cpp \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
