@@ -5,14 +5,14 @@
 ### 🏅 Difficulty Stats
 <div align="center">
 
-`🥉 Bronze                      ` `60`
+`🥉 Bronze                      ` `61`
 `🥈 Silver                      ` `3`
 `🥇 Gold                        ` `1`
 `💎 Platinum                    ` `0`
 `👑 Diamond                     ` `0`
 `🏆 Ruby                        ` `0`
 
-**Total Solved: 64 Problems**
+**Total Solved: 65 Problems**
 </div>
 
 <details>
@@ -123,6 +123,8 @@
 🥉 [개 (BOJ 10172)](CodingTestProject/10172/10172.cpp)
 
 🥉 [나머지 (BOJ 10430)](CodingTestProject/10430/10430.cpp)
+
+🥉 [세로읽기 (BOJ 10798)](CodingTestProject/10798/10798.cpp)
 
 🥉 [개수 세기 (BOJ 10807)](CodingTestProject/10807/10807.cpp)
 
@@ -325,6 +327,8 @@
 🥈 [너의 평점은 (BOJ 25206)](CodingTestProject/25206/25206.cpp)
 
 🥈 [크로아티아 알파벳 (BOJ 2941)](CodingTestProject/2941/2941.cpp)
+
+🥉 [세로읽기 (BOJ 10798)](CodingTestProject/10798/10798.cpp)
 
 🥉 [알파벳 찾기 (BOJ 10809)](CodingTestProject/10809/10809.cpp)
 
