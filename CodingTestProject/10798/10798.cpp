@@ -56,6 +56,7 @@ int main()
             if (&chars_[j][i] == nullptr)continue;
             cout << chars_[j][i];
         }
+        int a;
     }
 
 }
