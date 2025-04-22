@@ -32,7 +32,7 @@ using namespace std;
 int main()
 {
     char chars_[5][15];
-    fill_n(chars_, 0, true);
+    fill_n(chars_[0], 75, '!');
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 15; j++)
@@ -49,14 +49,17 @@ int main()
             }
         }
     }
-    for (int i = 0; i < 15; i++)
+    for (int i = 0; i < 5; i++)
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j < 15; j++)
         {
-            if (&chars_[j][i] == nullptr)continue;
-            cout << chars_[j][i];
+            if (chars_[i][j] == '!' || chars_[i][j] == EOF)
+            {
+                break;
+            }
+            cout << chars_[i][j];
         }
-
+        cout << endl;
     }
 
 }
