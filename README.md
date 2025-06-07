@@ -304,6 +304,16 @@
 </details>
 
 <details>
+<summary>Set</summary>
+
+<div align="center">
+
+🥉 [나머지 (BOJ 3052)](CodingTestProject/3052/3052.cpp)
+
+</div>
+</details>
+
+<details>
 <summary>Simulation</summary>
 
 <div align="center">
