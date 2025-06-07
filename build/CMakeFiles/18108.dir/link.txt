@@ -1,3 +1,3 @@
-C:\MinGW\bin\cmake.exe -E rm -f CMakeFiles\18108.dir/objects.a
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\18108.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\18108.dir/objects.a @CMakeFiles\18108.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\18108.dir/objects.a -Wl,--no-whole-archive -o C:\Users\KGA_\Desktop\CodingTest\CodingTestProject\18108\test_cases\18108\18108.exe -Wl,--out-implib,lib18108.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\18108.dir\linkLibs.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\18108.dir/objects.a -Wl,--no-whole-archive -o C:\Users\LG\Desktop\CodingTest\CodingTestProject\18108\test_cases\18108\18108.exe -Wl,--out-implib,lib18108.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\18108.dir\linkLibs.rsp

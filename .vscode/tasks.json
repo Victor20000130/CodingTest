@@ -39,6 +39,27 @@
         "problemMatcher": ["$gcc"],
         "group": "build",
         "detail": "컴파일러: C:/MinGW/bin/g++.exe"
-      }
+        
+      },
+      {
+  "label": "Run with redirection",
+  "type": "shell",
+  "command": "test_cases\\${fileBasenameNoExtension}\\${fileBasenameNoExtension}.exe < test_cases\\${fileBasenameNoExtension}\\input.txt > test_cases\\${fileBasenameNoExtension}\\output.txt",
+  "group": "test",
+  "presentation": {
+    "echo": true,
+    "reveal": "always"
+  }
+},
+{
+  "label": "Run with redirection",
+  "type": "shell",
+  "command": "test_cases\\${fileBasenameNoExtension}\\${fileBasenameNoExtension}.exe < test_cases\\${fileBasenameNoExtension}\\input.txt > test_cases\\${fileBasenameNoExtension}\\output.txt",
+  "group": "test",
+  "presentation": {
+    "echo": true,
+    "reveal": "always"
+  }
+}
     ]
   }

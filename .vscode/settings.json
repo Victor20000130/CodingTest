@@ -97,5 +97,8 @@
   "C_Cpp.vcFormat.indent.namespaceContents": true,
   "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "ignore",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine"
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
+  "editor.quickSuggestions": {},
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false
 }

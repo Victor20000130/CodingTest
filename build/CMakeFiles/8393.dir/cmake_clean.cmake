@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/KGA_/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.exe"
-  "C:/Users/KGA_/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.exe.manifest"
-  "C:/Users/KGA_/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.pdb"
+  "C:/Users/LG/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.exe"
+  "C:/Users/LG/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.exe.manifest"
+  "C:/Users/LG/Desktop/CodingTest/CodingTestProject/8393/test_cases/8393/8393.pdb"
   "CMakeFiles/8393.dir/CodingTestProject/8393/8393.cpp.obj"
   "CMakeFiles/8393.dir/CodingTestProject/8393/8393.cpp.obj.d"
   "lib8393.dll.a"

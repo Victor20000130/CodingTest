@@ -16,54 +16,54 @@
 // 출력
 // 첫째 줄에 다이얼을 걸기 위해서 필요한 최소 시간을 출력한다.
 
-#include <iostream>
-#include <vector>
-using namespace std;
+// #include <iostream>
+// #include <vector>
+// using namespace std;
 
-int CalcSec(char ch)
-{
-    if ('A' <= ch && ch <= 'C')
-    {
-        return 3;
-    }
-    if ('D' <= ch && ch <= 'F')
-    {
-        return 4;
-    }
-    if ('G' <= ch && ch <= 'I')
-    {
-        return 5;
-    }
-    if ('J' <= ch && ch <= 'L')
-    {
-        return 6;
-    }
-    if ('M' <= ch && ch <= 'O')
-    {
-        return 7;
-    }
-    if ('P' <= ch && ch <= 'S')
-    {
-        return 8;
-    }
-    if ('T' <= ch && ch <= 'V')
-    {
-        return 9;
-    }
-    if ('W' <= ch && ch <= 'Z')
-    {
-        return 10;
-    }
-}
+// int CalcSec(char ch)
+// {
+//     if ('A' <= ch && ch <= 'C')
+//     {
+//         return 3;
+//     }
+//     if ('D' <= ch && ch <= 'F')
+//     {
+//         return 4;
+//     }
+//     if ('G' <= ch && ch <= 'I')
+//     {
+//         return 5;
+//     }
+//     if ('J' <= ch && ch <= 'L')
+//     {
+//         return 6;
+//     }
+//     if ('M' <= ch && ch <= 'O')
+//     {
+//         return 7;
+//     }
+//     if ('P' <= ch && ch <= 'S')
+//     {
+//         return 8;
+//     }
+//     if ('T' <= ch && ch <= 'V')
+//     {
+//         return 9;
+//     }
+//     if ('W' <= ch && ch <= 'Z')
+//     {
+//         return 10;
+//     }
+// }
 
-int main()
-{
-    string str = "";
-    cin >> str;
-    int sec = 0;
-    for (int i = 0; i < str.length(); i++)
-    {
-        sec += CalcSec(str[i]);
-    }
-    cout << sec;
-}
+// int main()
+// {
+//     string str = "";
+//     cin >> str;
+//     int sec = 0;
+//     for (int i = 0; i < str.length(); i++)
+//     {
+//         sec += CalcSec(str[i]);
+//     }
+//     cout << sec;
+// }

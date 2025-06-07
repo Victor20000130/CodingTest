@@ -31,16 +31,17 @@ using namespace std;
 
 int main()
 {
-    char chars_[5][15];
-    fill_n(chars_[0], 75, '!');
+    char chars_[5][16];
+    fill_n(chars_[0], 80, 0);
     for (int i = 0; i < 5; i++)
     {
-        for (int j = 0; j < 15; j++)
+        for (int j = 0; j < 16; j++)
         {
             char temp;
             temp = cin.get();
             if (temp == '\n')
             {
+                chars_[i][j] = EOF;
                 break;
             }
             else
@@ -49,17 +50,17 @@ int main()
             }
         }
     }
-    for (int i = 0; i < 5; i++)
+
+    for (int j = 0; j < 16; j++)
     {
-        for (int j = 0; j < 15; j++)
+        for (int i = 0; i < 5; i++)
         {
-            if (chars_[i][j] == '!' || chars_[i][j] == EOF)
+            if (chars_[i][j] == EOF || chars_[i][j] == 0)
             {
-                break;
+                continue;
             }
+
             cout << chars_[i][j];
         }
-        cout << endl;
     }
-
 }
