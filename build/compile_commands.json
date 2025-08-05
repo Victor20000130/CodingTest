@@ -49,6 +49,12 @@
 },
 {
   "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10808.dir\\CodingTestProject\\10808\\10808.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\10808\\10808.cpp",
+  "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/10808/10808.cpp",
+  "output": "CMakeFiles/10808.dir/CodingTestProject/10808/10808.cpp.obj"
+},
+{
+  "directory": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\10809.dir\\CodingTestProject\\10809\\10809.cpp.obj -c C:\\Users\\qpalz\\Desktop\\AllStudy\\CodingTest\\CodingTestProject\\10809\\10809.cpp",
   "file": "C:/Users/qpalz/Desktop/AllStudy/CodingTest/CodingTestProject/10809/10809.cpp",
   "output": "CMakeFiles/10809.dir/CodingTestProject/10809/10809.cpp.obj"

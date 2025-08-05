@@ -220,6 +220,19 @@ depend:
 .PHONY : 10807/fast
 
 #=============================================================================
+# Target rules for targets named 10808
+
+# Build rule for target.
+10808: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10808
+.PHONY : 10808
+
+# fast build rule for target.
+10808/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10808.dir\build.make CMakeFiles/10808.dir/build
+.PHONY : 10808/fast
+
+#=============================================================================
 # Target rules for targets named 10809
 
 # Build rule for target.
@@ -1164,6 +1177,30 @@ CodingTestProject/10807/10807.s: CodingTestProject/10807/10807.cpp.s
 CodingTestProject/10807/10807.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10807.dir\build.make CMakeFiles/10807.dir/CodingTestProject/10807/10807.cpp.s
 .PHONY : CodingTestProject/10807/10807.cpp.s
+
+CodingTestProject/10808/10808.obj: CodingTestProject/10808/10808.cpp.obj
+.PHONY : CodingTestProject/10808/10808.obj
+
+# target to build an object file
+CodingTestProject/10808/10808.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10808.dir\build.make CMakeFiles/10808.dir/CodingTestProject/10808/10808.cpp.obj
+.PHONY : CodingTestProject/10808/10808.cpp.obj
+
+CodingTestProject/10808/10808.i: CodingTestProject/10808/10808.cpp.i
+.PHONY : CodingTestProject/10808/10808.i
+
+# target to preprocess a source file
+CodingTestProject/10808/10808.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10808.dir\build.make CMakeFiles/10808.dir/CodingTestProject/10808/10808.cpp.i
+.PHONY : CodingTestProject/10808/10808.cpp.i
+
+CodingTestProject/10808/10808.s: CodingTestProject/10808/10808.cpp.s
+.PHONY : CodingTestProject/10808/10808.s
+
+# target to generate assembly for a file
+CodingTestProject/10808/10808.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10808.dir\build.make CMakeFiles/10808.dir/CodingTestProject/10808/10808.cpp.s
+.PHONY : CodingTestProject/10808/10808.cpp.s
 
 CodingTestProject/10809/10809.obj: CodingTestProject/10809/10809.cpp.obj
 .PHONY : CodingTestProject/10809/10809.obj
@@ -2573,6 +2610,7 @@ help:
 	@echo ... 10430
 	@echo ... 10798
 	@echo ... 10807
+	@echo ... 10808
 	@echo ... 10809
 	@echo ... 10810
 	@echo ... 10811
@@ -2655,6 +2693,9 @@ help:
 	@echo ... CodingTestProject/10807/10807.obj
 	@echo ... CodingTestProject/10807/10807.i
 	@echo ... CodingTestProject/10807/10807.s
+	@echo ... CodingTestProject/10808/10808.obj
+	@echo ... CodingTestProject/10808/10808.i
+	@echo ... CodingTestProject/10808/10808.s
 	@echo ... CodingTestProject/10809/10809.obj
 	@echo ... CodingTestProject/10809/10809.i
 	@echo ... CodingTestProject/10809/10809.s
